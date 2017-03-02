@@ -1,0 +1,5 @@
+# 03-02-2017 L2
+
+## what is a good question?
+- SMART (specific, measurable, attainable, reproducible, time-bound)
+- identify the high level, philosophical question, then create a SMART question(s) that answers the high level Q
