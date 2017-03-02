@@ -1,0 +1,18 @@
+# 02-28-2017 L1
+
+- `Scikit-learn` machine learning
+- DS unifies terminology, research and approaches of 3 disciplines: applied stat, AI, econometrics
+
+- covariates: variables that you don't manipulate as part of the experiment but do affect the outcome (e.g. age)
+- predicator: variable to manipulate in an experiment to affect the outcome (e.g. calories consumed a day)
+
+## DS workflow
+
+1. ID the problem: objectives, goals, questions 
+2. Acquire the data: ideal data vs available data; limitations
+3. Parse the data: exploratory analysis, verify quality; are there outliers or trends? what types are the variables?
+4. Mining the data: determine sampiling, address missing values
+5. Refine the data
+6. Build Model
+7: Share result
+
