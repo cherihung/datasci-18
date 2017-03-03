@@ -1,6 +1,6 @@
 ### Unit 1: Research Design & Data Analysis	(L1 - L4, L5)
 
-# 02-28-2017 L1
+# L1: 02-28-2017
 
 - `Scikit-learn` machine learning
 - DS unifies terminology, research and approaches of 3 disciplines: applied stat, AI, econometrics
@@ -20,8 +20,43 @@
 
 ---
 
-# 03-02-2017 L2
+# L2: 03-02-2017
 
 ## what is a good question?
+
 - SMART (specific, measurable, attainable, reproducible, time-bound)
 - identify the high level, philosophical question, then create a SMART question(s) that answers the high level Q
+
+## type of data
+
+- *cross-sectional data:* represents a snapshot or slice of the informaiton. e.g. facebook news feed; stock-ticker information right now. 
+	-it's normally more representative but can be difficult to establish casuality with limited time
+
+- *longitudinal data (time-series):* info repeated gathered over time on a subject. e.g. health data, polling data, tweets over time, trends over time 
+	- each data point of a longitudinal data set is/can be a cross-sectional data
+	- clear sequence, multiple outcomes can be meaasured but prone to have missing or incomplete data
+
+## linear algebra
+
+- matrix is a collection of vectors. vector example: [0, 1, 2]. 4x3 matrix is a matrix with 4 rows and 3 colums.
+- matrix is usually written with capital letter. e.g. A = [...]
+
+## Class Activities:
+
+1. 1b uses the smart frame work and wants to know how much weather plays a role in flight delays in the winter season. 1a isn't a smart frame work question. its high-level phil question is to if carry-on causes people to board slower and causing delays.
+
+2. delay data is cross-sectional and longitudinal data. yes, you can create cross-sectional from longitudinal by taking a slice of data or data points from that collection.
+
+3. titanic.csv from [kaggle](https://www.kaggle.com/c/titanic/data)
+it's a cross-sectional data set that can be used to measure rate of survivial based on a variety of personal attributes. whether a passenger has other family members on board affects chance of survival, which has more affects age or social-status?
+
+4. matrix of birds on each continents
+birds = bluejay, seagull, penguin, ostrich for rows
+continents = n. america, africa, antartica for cols
+
+bluejay = [100, 200, 300]
+seagull = [300, 100, 200]
+penguin = [0, 0, 500]
+ostrich = [0, 100, 0]
+
+
