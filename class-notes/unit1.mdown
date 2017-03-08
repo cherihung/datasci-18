@@ -59,4 +59,38 @@ seagull = [300, 100, 200]
 penguin = [0, 0, 500]
 ostrich = [0, 100, 0]
 
+# L3: 03-07-2017
 
+# Summary of Statistics
+
+- IQR is a way to define low and high outliers. Bounds are sometimes referred to as *fences*.
+- Variance: how data vary from the mean. Standard deviation = square root of the variance
+- distribution: frequency of value and the probablity of each value existing in a data model
+- normal distribution/Gaussian: when mean = media, evenly spaced distribution. aka bell curve. 2 key params - mean and stand deviation. changing mean shifts the x-axis, changing SD shifts the y-axis or height
+- left-skewed = white spaces on the left, hump on the right. vice versa for right-skewed.
+- [kurtosis](https://brownmath.com/stat/shape.htm#Kurtosis) referes to peak. very pointy curve = positive kurtosis. it tells about the stand. deviation of the data. a pointy K shows most of the data points are close to the mean or one number
+- scaling = transform a non-normal distribution to a normal one
+
+## other distribution types
+- unitform: less likely but more common with generators
+- exponential/power law: high starting peak, long tail. e.g. googel search ranking
+- binomial: many yes/no experiments
+- poisson: rate of events. x of events within a time/space
+
+## variable types
+
+- continuous, categorical, ordinal
+- you can use ordinal to desripbe categorical but it isn't a good idea because numbers infer relationship to each other, which causes problem if using machine learning. could use dummy variable (i.e. 0=true, 1=false) instead
+
+Quesiton:
+1. 
+16, 18, 18, 24, 17, 21, 24, 29
+49, 68, 75, 75, 84, 87, 92, 98
+2. why are mean and median sometimes different? data aren't symmetrical.
+3. in a distribution chart, ends are *tail*, center of distribution is the *head*
+4. continuous prob distribution's modes are the peaks of the chart
+
+5. DC metro delay data's distribution: non-normal, negatively skewed (right-skewed), close to negative kurtois (aka more flattened out and not centered around a single number)
+
+6. dummy variables for metro lines: blue, red, green, orange, siler and yellow. silver as reference.
+silver line is the reference variable. Each Line is a column, each row will use 0 and 1 to indicate if it belongs to that column. Silver refrence variable means to drop it out of the dataframe. This is good for mutually exclusive dataset when you can only have one column per row being true.
