@@ -139,6 +139,10 @@ silver line is the reference variable. Each Line is a column, each row will use 
 - hypothesis tests to make inference about unavailable data
 - use same to generalize: polling data, A/B testing, generalize time-bound data
 
+### Confidence Interval
+- to see how sensetive or robust our point estimates (singel values data) are to variation in the data, we randomly sample our data 100 times. then take the same measure each time. 
+- for normal data can just use panda python, for non-normal: find middle 95% of the sample using quantile
+
 Question - 
 conduct a national survey of 1000 respondants wiht how many hours they watch to find out how much TV americans watch?
 
