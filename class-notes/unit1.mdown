@@ -94,3 +94,64 @@ Quesiton:
 
 6. dummy variables for metro lines: blue, red, green, orange, siler and yellow. silver as reference.
 silver line is the reference variable. Each Line is a column, each row will use 0 and 1 to indicate if it belongs to that column. Silver refrence variable means to drop it out of the dataframe. This is good for mutually exclusive dataset when you can only have one column per row being true.
+
+# L4: 03-09-2017
+
+##correlation
+
+- *correlation matrix* is useful to identify *collinearity* or lack of independence between variables. interpreting the heatmap matrix is to make sure other than the diagonal there aren't any 1s or -1s.	
+- perfect collinearity can break certian models (r = 0 or r = 1). collinearity is almost always present.
+- collinearity no effect on p-values and predictiveness of most models
+- collinearity + confounding variables = causation is hard
+- to disprove confounding variables, apply the variables to data and determine collinearity. if it has low collinearity to rest of data, then it has no effect or causation
+
+## hypothesis testing, p-values
+
+- tp prove a *statistically significant* difference
+- *null hypothesis* = default, no differences
+- low p-value or < .05 you can say there is a significant difference. value range 0.001 to 0.099. 0.001 to 0.003 = highly significant. 
+- type 1 error: reject null when it's true. type 2 error: accept null when it's false
+
+### choosing a hypothesis test
+
+## 1-Sample vs 2-Sample tests. Sample is a portion of a population. e.g. height of boys vs girls would be a 2-Sample tests.
+
+### 1-sample test
+- KS Test
+-- compare 2 distributions. compare data to normal distribution or to ther data. dataset need not be normal.
+-- test is looking for a goodness of the fit between the compared data. most commonly used to test if a data's distribution fits a normal distribution pattern
+
+- 1-sample mean test for normal distribution data only 
+-- Z-test need to know the standard deviation of the population (which is rare to have)
+-- T-test take a small group to predict how likely the data will fall into the mean
+
+- the test attaches meaning - mean/median: will the same represent the mean of overall population? does it cross the threshhold to make it different?  
+
+### 2-sample test
+- independence test: does one sample's value affect the other?
+- questions to ask: 1 - are they both normally distributed (ks-test)?, 2: are they independent? 3 
+- Depdendent T-test: must be normally distributed
+
+- can compare means/medias of two samples
+- can compare variances (or standard deviation) of two samples. 
+
+### Applications
+- hypothesis tests to make inference about unavailable data
+- use same to generalize: polling data, A/B testing, generalize time-bound data
+
+Question - 
+conduct a national survey of 1000 respondants wiht how many hours they watch to find out how much TV americans watch?
+
+1. what is the population? can we obtain the standard deviation? All americans. 
+2. KS Test to see if data is of normal distribution.
+3. what number? between 0.001 to 0.099 p-value. if < 0.05, means there are significant differences between our data and the normal data and we can't use our data to test the hypothesis. we have to collect new data.
+4. 30e3 = 30000; 8e-2 = 0.08
+5. Comparing distributions = KS Test
+6. Run a KS-test first to see if the data is normally distributed. Then if you know the standardard deviation of the population, the run K-test else use T-Test
+
+what test to use?
+
+1. Mean 2-sample T-test to test mean/median 
+2. Mann-Whitney test to look at the mead/media of a normal and a non-normal data
+3. Barlette test to look at the variance for normally distributed data for dependency
+4. Depdent T-test
