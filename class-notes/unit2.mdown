@@ -1,0 +1,13 @@
+#L5 - 03-16-2017
+
+## Finding data - ELT Process (extra, transform, load)
+
+[Awesome Public dataset on Github](https://github.com/caesar0301/awesome-public-datasets)
+[UCI MI Repo](http://archive.ics.uci.edu/ml/)
+[Programmable API](https://www.programmableweb.com/)
+
+## Survey:
+- A/B testing
+- Multi-armed bandit: are not split evenly down 50/50. but 2 phases would include a small % of random events. e.g. Pandora, training model while most of the time would use the data that you know works best (90%)
+- Conjoint Analysis: show a few options and make very specific selections (e.g. choose your own computer build). Conjoin [using python](https://github.com/Herka/Traditional-Conjoint-Analysis-with-Python/blob/master/Traditional%20Conjoint%20Analyse.ipynb)
+
