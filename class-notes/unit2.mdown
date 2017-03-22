@@ -11,3 +11,16 @@
 - Multi-armed bandit: are not split evenly down 50/50. but 2 phases would include a small % of random events. e.g. Pandora, training model while most of the time would use the data that you know works best (90%)
 - Conjoint Analysis: show a few options and make very specific selections (e.g. choose your own computer build). Conjoin [using python](https://github.com/Herka/Traditional-Conjoint-Analysis-with-Python/blob/master/Traditional%20Conjoint%20Analyse.ipynb)
 
+#L6 - 03-21-2017
+
+## Regression Analysis
+
+terminology from statistics to AI world	
+- predicators, covarites = x variables, features, inputs
+- outcomes, dependent variable = y variables, outputs
+- estimator.score(X, y) => multiple x predictors would be a df or matrix, y is a single-column df
+- co-efficent printed from model is the slope
+- in machine learnig, categorical data needs to be treated as dummie variables because ML doesn't understand string values
+
+### multicolinearity
+- when you have two factors with high colinearity, you usually want to take the one with the higher R-square value and drop the other one
