@@ -24,3 +24,9 @@ terminology from statistics to AI world
 
 ### multicolinearity
 - when you have two factors with high colinearity, you usually want to take the one with the higher R-square value and drop the other one
+
+#Final project idea
+
+1. One of the main overhead cost for restaurants is food cost from waste. Use restaurant inventory data to identify the inventory items/categories most susceptible to food waste and the cause. After identifying the predicators, it may be possible to create a prediction model on when would be the best time and/or amount to order at what frequency.
+2. Restaurants sales experience seasonal cycles. Use restaurant sales data to identify and create a prediction model for seasonal trends that can help the restaurant to promote or create menu items for sale.
+3. For chain restaurants, determine if restaurants in the same region have consistent trends in sales of menu items. If so, can we use it to make a prediction model that can inform menu design in regions that have similar demographics? And define what demographic traits most correlate to which sales trend. 
