@@ -1,0 +1,19 @@
+MSE = mean squred error, to see how correct a LM line is and if the data requires more normalization
+minimize error = OLS. SGD to calc better line
+R-squared vs mean squared error
+
+bias in Linear regression = model is too simplistic
+adding polynomials (exponents) may solve bias but cause the problem of variance where the model is overfitting by trying to catch all outliers
+
+bias = underfitting, high error for local data
+variance = overfitting, good for local data but high error rate for total data
+cross-validation = break your sample data into random and equal subset of samples, run different models which will give you a "total error" which is how your model will apply in real world not just your sample
+
+## regularized method 
+Lasso, 
+Ridge (most commonly used)
+
+alpha = how mnuch a model penalize complexity or how complex a model is
+low alpha = penlize less for complixity
+high alpha = penalize a lot for complixity 
+
