@@ -1,4 +1,4 @@
-#L5 - 03-16-2017
+#L5 - 03-12-2017
 
 ## Finding data - ELT Process (extra, transform, load)
 
@@ -11,7 +11,7 @@
 - Multi-armed bandit: are not split evenly down 50/50. but 2 phases would include a small % of random events. e.g. Pandora, training model while most of the time would use the data that you know works best (90%)
 - Conjoint Analysis: show a few options and make very specific selections (e.g. choose your own computer build). Conjoin [using python](https://github.com/Herka/Traditional-Conjoint-Analysis-with-Python/blob/master/Traditional%20Conjoint%20Analyse.ipynb)
 
-#L6 - 03-21-2017
+#L6 - 03-14-2017
 
 ## Regression Analysis
 
@@ -25,11 +25,60 @@ terminology from statistics to AI world
 ### multicolinearity
 - when you have two factors with high colinearity, you usually want to take the one with the higher R-square value and drop the other one
 
-#Final project idea
+#L7 - 03-23-2017
 
-1. One of the main overhead cost for restaurants is food cost from waste. Use restaurant inventory data to identify the inventory items/categories most susceptible to food waste and the cause. After identifying the predicators, it may be possible to create a prediction model on when would be the best time and/or amount to order at what frequency.
-- create a metric or find one for food waste/cost
+linear regression (OLS) => y = C + w(var1) + w(var2)....
 
-2. Restaurants sales experience seasonal cycles. Use restaurant sales data to identify and create a prediction model for seasonal trends that can help the restaurant to promote or create menu items for sale.
+MSE = *mean squred error*, to see how correct a LM line is and if the data requires more normalization
+to normalize and minimize error: SGD to calc better line. Use SGD to more efficiently minimize error.
 
-3. For chain restaurants, determine if restaurants in the same region have consistent trends in sales of menu items. If so, can we use it to make a prediction model that can inform menu design in regions that have similar demographics? And define what demographic traits most correlate to which sales trend. 
+## model is too simplistic
+bias in Linear regression = model is too simplistic
+adding polynomials (exponents) may solve bias but cause the problem of variance where the model is overfitting by trying to catch all outliers
+
+high bias = underfitting, high error for local data and total data
+
+## model does not generlize
+high variance = overfitting, may not generalize, good for local data but high error rate for total data
+
+to fix or account for high-variance, do cross-validation (k-fold):
+cross-validation = break your sample data into random and equal subset of samples, run different models which will give you a "total error" which is how your model will apply in real world not just your sample
+
+## regularized method for model that is too complex.
+- Lasso (most commonly used for images) 
+- Ridge (most commonly used for almost all circumstance)
+
+alpha = how mnuch a model penalize complexity or how complex a model is
+low alpha = penlize less for complixity
+high alpha = penalize a lot for complixity 
+
+#L8 - 03-28-2017
+
+## Classification
+
+Another area of machine learning. Unlike regression, it is to deal with true/false or binomial problems. Classification is trying to draw a line to separate the data. Regression is drawing a line through the data.
+- Binary classification - true/false
+- Multiclass classification - different categories
+
+To determine whether or target/outcome/Y variable can be ordered mathematically or numerically
+
+Exercise 1:
+1. classification
+2. regression
+3. regression
+4. clustering
+5. classification
+
+### K Nearest Neighbors (KNN)
+- doesn't work well with high dimensional data (i.e. lots of X variables)
+- to find best classification for a point based on its distance to a group of closest points
+- two ways of weighting the distance: 'uniform' (just look at the K closest), 'distance' (look and weight the K closest in order of proximity). 'distance' is usually the better choice to use
+
+### SVM/SVC support vector
+- alternative to KNN
+- flaw is that this assumes all your data are nicely separated with a margin/boundary between each class
+- too many downsides so it slowly falling out of favor in preference to decision trees etc
+
+### optimize 
+- use `GridSearchCV` for cross validation. mean-test-score and std-test-score are the most important metrics to note
+
