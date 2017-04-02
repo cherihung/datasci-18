@@ -82,3 +82,32 @@ Exercise 1:
 ### optimize 
 - use `GridSearchCV` for cross validation. mean-test-score and std-test-score are the most important metrics to note
 
+#L9 - 03-30-2017
+
+## Logistic Regression
+
+- actually a classification algorithem
+- p(y|x) : what is the probablity of Y given X
+- linear regression tends to rely on odds instead of probability
+
+### predicting odds
+- statsmodel only predicts binomial answers (2 categories). sklearn can do more than two categories.
+- AUC of 1 = perfect model, higher the ROC curve the better the model/results
+- Recall = how many times you can pull out positive result
+- [metrics from scikit learn](http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics)
+
+### slide 6 exercise:
+1. KNN is used to predict categories; linear regression is used to predict a numerical value
+2. data is somewhat continous (like dogs, cats weight vs height)
+
+### slide 21 exercise:
+rolle a 6 on a die
+probability = 1/6
+odds = 1:5 (1 chance of success, 5 chances of fail)
+log odds = log(1/5)
+
+### slide 47 exercise:
+1. False negative is worst = someone has cancer but told not having cancer. 
+2. False Positive (won’t pay but will) results in highest actual cost. False Negative (will pay but won't) results in potential cost of customer lost
+3. False Postive = worst. thinking it's spam but it's not. False Negative, thinking it's not spam but it is.
+
