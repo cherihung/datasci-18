@@ -15,12 +15,12 @@
 
 ## Regression Analysis
 
-terminology from statistics to AI world	
-- predicators, covarites = x variables, features, inputs
+terminology from statistics to AI world
+- predicators, covariates = x variables, features, inputs
 - outcomes, dependent variable = y variables, outputs
 - estimator.score(X, y) => multiple x predictors would be a df or matrix, y is a single-column df
 - co-efficent printed from model is the slope
-- in machine learnig, categorical data needs to be treated as dummie variables because ML doesn't understand string values
+- in machine learning, categorical data needs to be treated as dummy variables because ML doesn't understand string values
 
 ### multicolinearity
 - when you have two factors with high colinearity, you usually want to take the one with the higher R-square value and drop the other one
@@ -29,7 +29,7 @@ terminology from statistics to AI world
 
 linear regression (OLS) => y = C + w(var1) + w(var2)....
 
-MSE = *mean squred error*, to see how correct a LM line is and if the data requires more normalization
+MSE = *mean squared error*, to see how correct a LM line is and if the data requires more normalization
 to normalize and minimize error: SGD to calc better line. Use SGD to more efficiently minimize error.
 
 ## model is too simplistic
@@ -38,19 +38,19 @@ adding polynomials (exponents) may solve bias but cause the problem of variance 
 
 high bias = underfitting, high error for local data and total data
 
-## model does not generlize
+## model does not generalize
 high variance = overfitting, may not generalize, good for local data but high error rate for total data
 
 to fix or account for high-variance, do cross-validation (k-fold):
 cross-validation = break your sample data into random and equal subset of samples, run different models which will give you a "total error" which is how your model will apply in real world not just your sample
 
 ## regularized method for model that is too complex.
-- Lasso (most commonly used for images) 
+- Lasso (most commonly used for images)
 - Ridge (most commonly used for almost all circumstance)
 
-alpha = how mnuch a model penalize complexity or how complex a model is
-low alpha = penlize less for complixity
-high alpha = penalize a lot for complixity 
+alpha = how much a model penalize complexity or how complex a model is
+low alpha = penalize less for complexity
+high alpha = penalize a lot for complexity
 
 #L8 - 03-28-2017
 
@@ -79,15 +79,15 @@ Exercise 1:
 - flaw is that this assumes all your data are nicely separated with a margin/boundary between each class
 - too many downsides so it slowly falling out of favor in preference to decision trees etc
 
-### optimize 
+### optimize
 - use `GridSearchCV` for cross validation. mean-test-score and std-test-score are the most important metrics to note
 
 #L9 - 03-30-2017
 
 ## Logistic Regression
 
-- actually a classification algorithem
-- p(y|x) : what is the probablity of Y given X
+- actually a classification algorithm
+- p(y|x) : what is the probability of Y given X
 - linear regression tends to rely on odds instead of probability
 
 ### predicting odds
@@ -98,16 +98,31 @@ Exercise 1:
 
 ### slide 6 exercise:
 1. KNN is used to predict categories; linear regression is used to predict a numerical value
-2. data is somewhat continous (like dogs, cats weight vs height)
+2. data is somewhat continuous (like dogs, cats weight vs height)
 
 ### slide 21 exercise:
-rolle a 6 on a die
+roll a 6 on a die
 probability = 1/6
 odds = 1:5 (1 chance of success, 5 chances of fail)
 log odds = log(1/5)
 
 ### slide 47 exercise:
-1. False negative is worst = someone has cancer but told not having cancer. 
+1. False negative is worst = someone has cancer but told not having cancer.
 2. False Positive (won’t pay but will) results in highest actual cost. False Negative (will pay but won't) results in potential cost of customer lost
-3. False Postive = worst. thinking it's spam but it's not. False Negative, thinking it's not spam but it is.
+3. False Positive = worst. thinking it's spam but it's not. False Negative, thinking it's not spam but it is.
 
+#L10 - 04-04-2017
+
+- Cross-validation is needed to evaluate variance rate. Doesn't cross-validated well means a variance problem.
+- *Accuracy Paradox* can cause Accuracy be a bad metric to judge your model. To solve this paradox, use *Precision* and *Recall*. Precision is about false hits (type I error). Recall is about misses (type II error).
+- Recall is looking at True Class aka true values (TP/P). Precision is looking at predicated class / true class (TP/TP+FP).
+
+### slide 40 exercise
+
+1. Lenders would be more interested for the TPP.
+2. "You ran a linear regression. Your R-squared is moderate & MSE is high." => Bias problem - add polynomials or features
+"Training well on local but now doesn't generalize" => Variance problem - tuning regularization params, try a smaller set of features if possible
+
+### slid 58 exercise
+Precision = 13/(13+8) = 0.619
+Recall = 13/(13+7) = 0.65
