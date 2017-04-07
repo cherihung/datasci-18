@@ -126,3 +126,21 @@ log odds = log(1/5)
 ### slid 58 exercise
 Precision = 13/(13+8) = 0.619
 Recall = 13/(13+7) = 0.65
+
+#L11 - 04-06-2017
+
+## Clustering
+- For clustering, the groups are the prediction.
+- Silhouette score to determine best kind of clustering model
+http://scikit-learn.org/stable/modules/clustering.html
+
+### K-means clustering
+- centroid is the mean of each cluster group
+https://www.naftaliharris.com/blog/visualizing-k-means-clustering/
+
+### DBSCAN clustering
+- tuning params: epsilon, min sample size
+https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
+
+### Agglomerative clustering
+- slower, better for medium to smaller dataset
