@@ -1,0 +1,4 @@
+Potential predictors for food waste/variance:
+- seasons or periods or time of day (Logistic regression)
+- menu items used
+- amount and date ordered

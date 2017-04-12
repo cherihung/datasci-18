@@ -123,7 +123,7 @@ log odds = log(1/5)
 2. "You ran a linear regression. Your R-squared is moderate & MSE is high." => Bias problem - add polynomials or features
 "Training well on local but now doesn't generalize" => Variance problem - tuning regularization params, try a smaller set of features if possible
 
-### slid 58 exercise
+### slide 58 exercise
 Precision = 13/(13+8) = 0.619
 Recall = 13/(13+7) = 0.65
 
@@ -144,3 +144,26 @@ https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
 
 ### Agglomerative clustering
 - slower, better for medium to smaller dataset
+
+#L12 - 04-11-2017
+### Decision trees
+- can be both regression or classification depending on how it's used
+
+### slide 19 exercise
+1. importance of different variables in regression model:
+scaling coefficients and see how that affects each X variables' impact on the Y or target variable.
+R-squared values.
+2. importance of different variables in classification model:
+for loop through the columns and remove step by step to see how much that affects the accuracy. that is one way of estimating the importance but there are not really perfect way to judge this. decision tree helps.
+
+### decision tree model
+- *gini impurity* shows which variable is more important to your variable outcome
+- "feature_importances" from decisionTree algorithm signals the most predictive variables for classifying your data
+- _max_depth_ param will help tune the decision tree to not overfit your data
+- cross-validation and tuning help prevent tree overfitting.
+- *Random forest model*: ensembling, is a simple and good way to avoid overfitting. It is similar to k-fold. Takes a lot of overfitting trees to reduce variance. The downside is that you can't really visualize random forest which makes it hard to see what is happening. Another downside is that it takes a longer time to train and a lot more computational power. For simpler problems, use a single model instead.
+- *ensemble forest model* (aka random forest): warm_start param will help make the model run faster 
+
+
+- Naive Bayes
+http://sebastianraschka.com/Articles/2014_naive_bayes_1.html
