@@ -1,0 +1,207 @@
+{
+  "ProductId": 756,
+  "ProductName": "POULTRY - CHX WING",
+  "Measure": "EA",
+  "BeginningInventory": [
+    {
+      "ProductId": 756,
+      "ProductDescription": "POULTRY - CHX WING",
+      "Qty": 256,
+      "InventoryMeasure": "LB",
+      "InventoryQty": 256,
+      "RecipePortions": 1344,
+      "RecipeMeasure": "EA"
+    },
+    {
+      "ProductId": 3388,
+      "ProductDescription": "Prep - Wings, Par Cooked",
+      "Qty": 750,
+      "InventoryMeasure": "LB",
+      "InventoryQty": 142.857143,
+      "RecipePortions": 750.000001,
+      "RecipeMeasure": "EA"
+    }
+  ],
+  "OrdersReceived": [
+    {
+      "ProductId": 756,
+      "DateReceived": "2017-04-06T00:00:00",
+      "OrderType": 1,
+      "Invoice": "616583667",
+      "Qty": 3,
+      "InventoryPortion": 120,
+      "InventoryMeasure": "LB",
+      "RecipePortion": 630,
+      "RecipeMeasure": "EA",
+      "RecipeMultiplier": 5.25
+    },
+    {
+      "ProductId": 756,
+      "DateReceived": "2017-04-06T00:00:00",
+      "OrderType": 1,
+      "Invoice": "616601721",
+      "Qty": 4,
+      "InventoryPortion": 160,
+      "InventoryMeasure": "LB",
+      "RecipePortion": 840,
+      "RecipeMeasure": "EA",
+      "RecipeMultiplier": 5.25
+    },
+    {
+      "ProductId": 756,
+      "DateReceived": "2017-04-08T00:00:00",
+      "OrderType": 1,
+      "Invoice": "616617104",
+      "Qty": 6,
+      "InventoryPortion": 240,
+      "InventoryMeasure": "LB",
+      "RecipePortion": 1260,
+      "RecipeMeasure": "EA",
+      "RecipeMultiplier": 5.25
+    }
+  ],
+  "EndingInventory": [
+    {
+      "ProductId": 756,
+      "ProductDescription": "POULTRY - CHX WING",
+      "Qty": 310,
+      "InventoryMeasure": "LB",
+      "InventoryQty": 310,
+      "RecipePortions": 1627.5,
+      "RecipeMeasure": "EA"
+    },
+    {
+      "ProductId": 3388,
+      "ProductDescription": "Prep - Wings, Par Cooked",
+      "Qty": 200,
+      "InventoryMeasure": "LB",
+      "InventoryQty": 38.095238,
+      "RecipePortions": 200,
+      "RecipeMeasure": "EA"
+    }
+  ],
+  "IdealUsage": [
+    {
+      "ProductId": 756,
+      "MenuItem": 4909,
+      "MenuNumber": 1210,
+      "MenuDescription": "Naked Wings - 6",
+      "Portion": 6,
+      "ItemCount": 109,
+      "Uses": 654,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 4911,
+      "MenuNumber": 1211,
+      "MenuDescription": "Naked Wings - 12",
+      "Portion": 12,
+      "ItemCount": 54,
+      "Uses": 648,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 5179,
+      "MenuNumber": 1240,
+      "MenuDescription": "Naked - 6 Wings",
+      "Portion": 6,
+      "ItemCount": 88,
+      "Uses": 528,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 4891,
+      "MenuNumber": 1219,
+      "MenuDescription": "12 Breaded Wings",
+      "Portion": 12,
+      "ItemCount": 16,
+      "Uses": 192,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 5180,
+      "MenuNumber": 1241,
+      "MenuDescription": "Breaded - 6 Wings",
+      "Portion": 6,
+      "ItemCount": 30,
+      "Uses": 180,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 4912,
+      "MenuNumber": 1212,
+      "MenuDescription": "Naked Wings - 18",
+      "Portion": 18,
+      "ItemCount": 6,
+      "Uses": 108,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 4889,
+      "MenuNumber": 1218,
+      "MenuDescription": "6 Breaded Wings",
+      "Portion": 6,
+      "ItemCount": 15,
+      "Uses": 90,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 4910,
+      "MenuNumber": 1231,
+      "MenuDescription": "Naked Wings - 9",
+      "Portion": 9,
+      "ItemCount": 6,
+      "Uses": 54,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 4892,
+      "MenuNumber": 1220,
+      "MenuDescription": "18 Breaded Wings",
+      "Portion": 18,
+      "ItemCount": 1,
+      "Uses": 18,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    },
+    {
+      "ProductId": 756,
+      "MenuItem": 1702,
+      "MenuNumber": 6705,
+      "MenuDescription": "Sub Wings $$- Apps",
+      "Portion": 6,
+      "ItemCount": 1,
+      "Uses": 6,
+      "RecipeMultiplier": 5.25,
+      "RecipeMeasure": "EA",
+      "Shrink": 0
+    }
+  ],
+  "MenuItemWaste": [],
+  "IngredientWaste": []
+}
