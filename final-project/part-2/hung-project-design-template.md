@@ -15,14 +15,14 @@ The key metric to use is *variance*, which is calculated by the system as *Actua
 *On a single item table, the fields are as below:*
 
 | ProductId | ProductName | BeginningInventory  | OrdersReceived | EndingInventory | ActualUsage | IdealUsage | Variance |
-| ------------- |:-------------:| -----:|
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | 756 | POULTRY - CHX WING | 2094 | 2730 | 1827.5 | 2996.5 | 2478 | 518.5 |
 
 *Each food item can then be paired with a query to inventory order records of the same time period, like below:*
 This table will be aggregated into a sum of total number of orders. The hypothesis is that more orders means less efficiency in inventory management and leads to higher overage. Because, typically, there is a minimum number of units in an order.
 
 | ProductId | ProductName | Date  | Invoice | Orders | RecipeUnits | InventoryUnits |
-| ------------- |:-------------:| -----:|
+| --- | --- | --- | --- | --- | --- | --- |
 | 756 | POULTRY - CHX WING | 04/06/2017 | #616583667 | 3 | 630 | 120 |
 | 756 | POULTRY - CHX WING | 04/06/2017 | #616601721 | 4 | 840 | 160 |
 | 756 | POULTRY - CHX WING | 04/08/2017 | #616617104 | 6 | 1260 | 240 |
@@ -31,7 +31,7 @@ This table will be aggregated into a sum of total number of orders. The hypothes
 This table will be aggregated into a sum of total number of menuItems and then associated with each food item in the final dataset.
 
 | Id | MenuItem |
-| ------------- |:-------------:| -----:|
+| --- |---|
 | 1210 | Naked Wings - 6 |
 | 1211 | Naked Wings - 12 |
 ....
