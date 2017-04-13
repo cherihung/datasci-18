@@ -6,15 +6,20 @@ This project aims to find the cause for food cost overage in a given restaurant.
 
 ### Datasets
 
-The data is based on a single restaurant's management data that my company has access to. The data is stored in SQL database. There are APIs to access aggregated data for quick view but raw datasets used for this project will come from the database.
+The data is based on a single restaurant's management data that my company has access to. The data is stored in SQL database. There are APIs to access aggregated data for quick view but raw datasets used for this project will come from the database. This project will require combining SQL queries to produce a dataset that include all the variables needed. Or, alternatively, I'll do the combination of multiple tables into one dataframe in ipython notebook.
 
-The key metric to use is *variance*, which is calculated by the system as *Actual Cost - Ideal Cost* for an inventory item. On a single item table, the fields would be like below:
+Te relevant data tables from the SQL database are as follow:
+
+The key metric to use is *variance*, which is calculated by the system as *Actual Cost - Ideal Cost* for an inventory item.
+
+*On a single item table, the fields are as below:*
 
 | ProductId | ProductName | BeginningInventory  | OrdersReceived | EndingInventory | ActualUsage | IdealUsage | Variance |
 | ------------- |:-------------:| -----:|
 | 756 | POULTRY - CHX WING | 2094 | 2730 | 1827.5 | 2996.5 | 2478 | 518.5 |
 
-Each food item can then be paired with a query to inventory order records, like below:
+*Each food item can then be paired with a query to inventory order records of the same time period, like below:*
+This table will be aggregated into a sum of total number of orders. The hypothesis is that more orders means less efficiency in inventory management and leads to higher overage. Because, typically, there is a minimum number of units in an order.
 
 | ProductId | ProductName | Date  | Invoice | Orders | RecipeUnits | InventoryUnits |
 | ------------- |:-------------:| -----:|
@@ -22,7 +27,8 @@ Each food item can then be paired with a query to inventory order records, like 
 | 756 | POULTRY - CHX WING | 04/06/2017 | #616601721 | 4 | 840 | 160 |
 | 756 | POULTRY - CHX WING | 04/08/2017 | #616617104 | 6 | 1260 | 240 |
 
-To get the menu items using this food item, another query will need to be paired to table, like below:
+*To get the menu items using this food item, another query will need to be paired to table, like below:*
+This table will be aggregated into a sum of total number of menuItems and then associated with each food item in the final dataset.
 
 | Id | MenuItem |
 | ------------- |:-------------:| -----:|
@@ -47,9 +53,13 @@ Also, the metric "variance" is calculated based on _Ideal Cost_ entered by the u
 Another concern I have is being able to standardize units of items. For example, somehow being able to normalize between 1 lbs of shrimp and 1 can of tomatoes for example.
 
 ### Outcomes
-* What do you expect the output to look like?
-* What does your target audience expect the output to look like?
-* What gain do you expect from your most important feature on its own?
-* How complicated does your model have to be?
-* How successful does your project have to be in order to be considered a "success"?
-* What will you do if the project is a bust (this happens! but it shouldn't here)?
+
+I would expect the outcome to be a logistic regression model that I can input one or more X variables. And the model would output a true/false prediction on whether overage is likely to occur.  
+
+The target audience for this project at this point is the internal stakeholders (i.e. my company and development team). The output would be a piece of code that the development team can use to plugin in various data and produce a prediction. A ipython notebook should be sufficient for this purpose for the internal audience to evaluate the methodology and model. Ultimately, I would hope this could transition to external target audience (i.e. restaurants) for testing.
+
+Also would expect to utilize any relevant visualizations to explain the regression model.
+
+As the project help identify the most important feature, I expect to be able to recommend further actions on that factor. It is hard to define at this point. But an example would be to better control the scheduling of when to order more inventory. Or, simply be able to allow the managers to plan for overage at a certain period.
+
+As stated earlier, this is a problem with many seemingly correlating variables. Being able to produce a model with statistically accuracy for making prediction would be considered a success. And from that, I would hope further work can be done on trying to predict a range of overage. However, a bust, meaning ending with no viable model that can point to a X variable as a predictor, I'd hope the project could at least signal a reason for why this modeling failed. If it's a matter of features used, perhaps explore other data points that may or may not reside in our database already. If it's a matter of the machine learning model used, perhaps explore another model.
