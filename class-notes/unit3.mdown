@@ -1,0 +1,8 @@
+#L13 - 4-13-2017
+
+## NLP
+
+- stemming: to identify and group works with different endings but same words together. 'badly', 'bad' => 'bad', 'bad'
+- lemmatization: using grammar rules to group different words with same meaning. 'good', 'best', 'better'
+
+- nltk lib: sent_tokenize, workd_tokenize
