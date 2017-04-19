@@ -6,3 +6,54 @@
 - lemmatization: using grammar rules to group different words with same meaning. 'good', 'best', 'better'
 
 - nltk lib: sent_tokenize, workd_tokenize
+
+#L14 - 4-18-2017
+
+## NLP Part 2
+
+## Naive Bayes
+Batch learning vs online learning (aka realtime learning)
+so far all the ML algorithm we've used are batch learning. e.g. data.fit()
+robotics, for example, uses online learning.
+
+Naive Bayes is an online learning model.
+
+for data, like text, that are vectorized into numerical, we want to use Multinomial anything else is Gaussiance
+
+The major assumption is that there's no collinearity between any columns. but because it doesn't look at the correlation, it runs much faster. and while the assumption is wrong especially in text but given enough dataset (really a big dataset and enough columns), it works!
+
+- what we know: p(word | class)
+the probability of the word given the class.
+e.g. probability of seeing the word "basketball" in the "sports" class.
+
+- model: p(class | word)
+predict the probability of the class given the
+
+
+## key concepts - cleaning:
+- stemming, lemmatization, stop words
+
+## key concepts - analyses:
+- pos count, sentiment, NER, word count/Tfidf, topics/LDA
+
+- Count Vectorizer:
+use .fit() once and first to create the model, then only use .transform() from then on to train your model
+- Tfidf Vectorizer: it counts both term frequency (like count Vectorizer) AND document frequency (how many times in a document) BUT inverse (higher score for less doc frequency)
+- Tfidf is more accurate, count Vectorizer is faster.
+
+## slide 8 exercise
+- "Lincoln Center" "Hearst Foundation" - closely related as they are almost always appear together in a sentence
+- topics: grants to performing arts, Heart foundation supports the arts
+
+## dimensionality reduction
+- combine high correlated features into one single feature to reduce complexity. you'll lose nuance but is helpful with NLP problems that need to group highly correlated words or texts together.
+- http://setosa.io/ev/principal-component-analysis/
+
+## slide 24 exercise
+
+dimensionality reduction vs regularization:
+regularization adds accuracy, won't lose any columns in your dataset. it's a layer on top of your learning model after regularizing all your features. dimensionality reduction, you lose your columns but speed up your analysis. and in the world of text, it'd work better.
+
+## LDA
+
+Unsupervised learning algorithm for text.
