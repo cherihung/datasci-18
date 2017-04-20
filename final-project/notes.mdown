@@ -2,3 +2,52 @@ Potential predictors for food waste/variance:
 - seasons or periods or time of day (Logistic regression)
 - menu items used
 - amount and date ordered
+
+Product Type | Product name
+1 | Liquor
+2 | Food
+3 | Other
+4 | Merchandise
+
+Query invoice orders to calculate number of total inventory orders for a product/ingredient
+
+## Get IdealVActualC within the inventory date range (2016-12-01 - 2017-02-28)
+dbo.tb_InventoryDates
+  - has the date ranges to use
+  - InventoryId corresponds to dbo.tb_IdealVActualC
+
+dbo.tb_IdealVActualC
+  - is the main data table I want with variance, actual, ideal and all the data
+  - ProductId corresponds to dbo.tb_Ingredients and dbo.vw_OrderReceived
+  - InventoryId corresponds to dbo.tb_InventoryDates
+
+output => tb_InventoryDates_2016_2017_winter.csv, *tb_IdealVActualC_2016_2017_winter.csv*
+
+## Get Orders within the date range (2016-12-01 - 2017-02-28)
+
+dbo.tb_OrderNumber
+  - has the order date and delivery ranges
+  - OrderNumber corresponds to dbo.vw_OrderDetail, dbo.vw_OrderReceived
+  - Invoice corresponds to dbo.vw_OrderDetail
+
+dbo.vw_OrderReceived
+  - has ProductId that points to the ingredient/ProductId
+  - OrderNumber corresponds to dbo.tb_OrderNumbers and dbo.vw_OrderDetail
+  - ItemNumber corresponds to dbo.vw_OrderDetail
+  - ProductId corresponds to dbo.tb_Ingredients
+
+output => *tb_OrderNumbers_and_OrderReceived_2016_2017_winter.csv*
+
+dbo.vw_OrderDetail
+  - has named description in each item in the invoice
+  - ItemNumber corresponds to dbo.vw_OrderReceived
+  - OrderNumber corresponds to dbo.vw_OrderReceived and dbo.tb_OrderNumber
+  - Invoice corresponds to dbo.tb_OrderNumbers
+
+output => tb_OrderNumbers_and_OrderDetail_2016_2017_winter.csv
+
+dbo.tb_Ingredients
+  - has the ProductId and named description of them item
+  - ProductId corresponds to dbo.vw_OrderReceived
+
+output => tb_ingredients_all.csv

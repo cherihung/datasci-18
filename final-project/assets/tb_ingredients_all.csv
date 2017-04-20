@@ -1,0 +1,893 @@
+ProductID,ProductDescription,RecMeasureID,InvMeasureID,ProductType,RecipeType,IVAFlag,CreditFlag
+1,Ziegenbock KEG,7,4,1,1,0,1
+2,Ziegenbock Bottle,4,4,1,1,0,1
+3,Worcestershire,7,3,2,1,1,1
+4,Do Not Use,7,14,2,1,0,0
+5,Whipping Cream,7,4,2,1,1,1
+6,Whipped Cream Cans,8,4,2,1,1,1
+7,"Walnuts, Candied",8,2,2,1,1,-1
+8,"Vinegar, White",7,3,2,1,1,1
+9,"Vinegar, Red Wine",7,3,2,1,1,1
+10,"Vinegar, Apple Cider",7,3,2,1,1,1
+11,Victoria Bottle,4,4,1,1,0,1
+12,Vegetable Base,8,24,2,1,1,1
+13,V8 Vegetable Juice,7,14,2,1,1,1
+14,"Turkey, Ground",8,2,2,1,1,1
+15,"T-Shirt, Mardi Gras",4,4,4,1,1,1
+16,Shirt - Baseball S,4,4,4,1,1,-1
+17,Tres Agaves Tequila,7,14,1,1,1,1
+18,"Tortilla, Corn",4,5,2,1,1,-1
+19,"Tortilla, Burrito Die Cut",4,18,2,1,1,1
+20,"Tortilla, 6"" Orange",4,18,2,1,1,1
+21,"Tortilla Chips, Super Thin",8,2,2,1,1,-1
+22,"Tomato, Salsa",8,2,2,1,1,1
+23,"Tomato, Chopped Canned",8,16,2,1,1,1
+24,"Tomato, Cherry",4,23,2,1,1,1
+25,"Tomato, 4x5",8,2,2,1,1,1
+26,Tito's Vodka,7,14,1,1,1,1
+27,Third Shift Bottle,4,4,1,1,0,1
+28,Teriyaki Sauce,7,14,2,1,1,1
+29,Tecate Light Can,4,4,1,1,1,1
+30,Tecate Can,4,4,1,1,1,1
+31,"Tea, Iced Bags",5,5,3,1,0,1
+32,Tai Sauce Mae Ploy,7,14,2,1,1,1
+33,Tabasco 5oz BTL,7,14,2,1,0,1
+34,Sweet n Low,4,1,2,1,1,1
+35,Sutter Home White Zinfandel,7,14,1,1,1,1
+36,Sutter Home Chardonnay,7,14,1,1,1,1
+37,Sutter Home Cabernet Sauvignon,7,14,1,1,1,1
+38,"Sugar, Bulk",7,2,2,1,0,1
+39,Sugar Packets,4,1,2,1,0,1
+40,"Strawberries, Frozen",8,12,2,1,1,-1
+41,"Strawberries, Fresh",4,23,2,1,1,1
+42,Stella Artois Bottle,4,4,1,1,0,1
+43,St. Arnold Root Beer KEG,7,4,1,1,1,1
+44,St. Arnold Root Beer Bottle,4,4,1,1,1,1
+45,St. Arnold Amber Bottle,4,4,1,1,1,1
+46,"Squash, Yellow Fresh",8,2,2,1,1,-1
+47,Splenda,4,1,2,1,0,1
+48,"Spinach, Baby",8,2,2,1,1,1
+49,"Spice, Ready Mix Crawfish",8,2,2,1,1,1
+50,"Spice, White Pepper",7,14,2,1,1,1
+51,"Spice, Thyme Ground",7,14,2,1,1,1
+52,"Spice, Taco Spice",9,9,2,1,1,1
+53,"Spice, Burger & Steak Seasoning",7,2,2,1,1,1
+54,"Spice, Slap Ya Mama",8,2,2,1,1,1
+55,"Spice, Season All",7,2,2,1,1,1
+56,"Spice, Salmon Grill",7,14,2,1,1,1
+57,"Spice, Rosemary Leaves",7,14,2,1,1,1
+58,"Spice, Poppy Seed Whole",7,14,2,1,1,1
+59,"Spice, Paprika",7,14,2,1,1,1
+60,"Spice, Oregano",7,14,2,1,1,1
+61,"Spice, Onion Salt",7,14,2,1,1,1
+62,"Spice, Onion Powder",7,14,2,1,1,1
+63,"Spice, Marinade",9,9,2,1,1,1
+64,"Spice, Lemon Pepper",7,14,2,1,1,1
+65,"Spice, Gumbo File",7,14,2,1,1,1
+66,"Spice, Garlic Salt",7,14,2,1,1,1
+67,"Spice, Garlic Granulated",7,2,2,1,1,1
+68,"Spice, Flour Seasoning",9,9,2,1,1,1
+69,"Spice, Crawfish Boil Packets",8,9,2,1,1,1
+70,Corn Starch,7,2,2,1,1,-1
+71,"Spice, Coleslaw Stabilizer",7,5,2,1,1,1
+72,"Spice, Cinnamon",7,14,2,1,1,1
+73,"Spice, Cayenne",7,14,2,1,1,1
+74,"Spice, Blackened Seasoning",7,16,2,1,1,1
+75,"Spice, Black Pepper Table Grind",7,2,2,1,1,1
+76,"Spice, Black Pepper Coarse",7,2,2,1,1,-1
+77,"Spice, Bay Leaves",4,14,2,1,1,1
+78,"Spice, Baking Powder",7,14,2,1,1,1
+79,Soy Sauce,7,3,2,1,1,1
+80,Sour Cream,7,22,2,1,1,1
+81,Sol Bottle,4,4,1,1,0,1
+82,DoNotUse2,7,3,2,1,0,0
+83,Smirnoff,7,14,1,1,1,1
+84,Skyy,7,14,1,1,1,1
+85,Shrimp 21/25,8,2,2,1,1,1
+86,Shock Top Bottle,4,4,1,1,0,1
+87,Shirt - Grill Daddy S,4,4,3,1,1,0
+90,Shirt - Western BBB XXL,4,4,4,1,1,0
+93,Shirt - Western BBB XL,4,4,4,1,1,0
+96,Shirt - Western BBB S,4,4,4,1,1,0
+99,Shirt - Western BBB M,4,4,4,1,1,0
+102,Shirt - Western BBB L,4,4,4,1,1,0
+105,Shirt - Swoosh XXL,4,4,4,1,1,0
+108,Shirt - Swoosh XL,4,4,4,1,1,0
+111,Shirt - Swoosh S,4,4,4,1,1,0
+114,Shirt - Swoosh M,4,4,4,1,1,0
+117,Shirt - Swoosh L,4,4,4,1,1,0
+120,Shirt - Pink XXL,4,4,4,1,1,0
+123,Shirt - Pink XL,4,4,4,1,1,0
+126,Shirt - Pink S,4,4,4,1,1,0
+129,Shirt - Pink M,4,4,4,1,1,0
+132,Shirt - Pink L,4,4,4,1,1,0
+135,Shirt - Icons BBB XXL,4,4,4,1,1,0
+138,Shirt - Icons BBB XL,4,4,4,1,1,0
+141,Shirt - Icons BBB S,4,4,4,1,1,0
+144,Shirt - Icons BBB M,4,4,4,1,1,0
+147,Shirt - Icons BBB L,4,4,4,1,1,0
+150,Shirt - Hatch XXL,4,4,4,1,1,0
+153,Shirt - Hatch XL,4,4,4,1,1,0
+156,Shirt - Hatch S,4,4,4,1,1,0
+159,Shirt - Hatch M,4,4,4,1,1,0
+162,Shirt - Hatch L,4,4,4,1,1,0
+165,Shirt - Crawdaddy XXL,4,4,4,1,1,0
+168,Shirt - Crawdaddy XL,4,4,4,1,1,0
+171,Shirt - Crawdaddy S,4,4,4,1,1,0
+174,Shirt - Crawdaddy M,4,4,4,1,1,0
+177,Shirt - Crawdaddy L,4,4,4,1,1,0
+180,Shirt - Classic BBB XXL,4,4,4,1,1,0
+183,Shirt - Classic BBB XL,4,4,4,1,1,0
+186,Shirt - Classic BBB S,4,4,4,1,1,0
+189,Shirt - Classic BBB M,4,4,4,1,1,0
+192,Shirt - Classic BBB L,4,4,4,1,1,0
+195,Shirt - Camo XXL,4,4,4,1,1,0
+198,Shirt - Camo XL,4,4,4,1,1,0
+201,Shirt - Camo S,4,4,4,1,1,0
+204,Shirt - Camo M,4,4,4,1,1,0
+207,Shirt - Camo L,4,4,4,1,1,0
+210,Shirt - Bottle Cap XXL,4,4,4,1,1,0
+213,Shirt - Bottle Cap XL,4,4,4,1,1,0
+216,Shirt - Bottle Cap S,4,4,4,1,1,0
+219,Shirt - Bottle Cap M,4,4,4,1,1,0
+222,Shirt - Bottle Cap L,4,4,4,1,1,0
+225,Shirt - Beer & Crawfish XXL,4,4,4,1,1,0
+228,Shirt - Beer & Crawfish XL,4,4,4,1,1,0
+231,Shirt - Beer & Crawfish S,4,4,4,1,1,0
+234,Shirt - Beer & Crawfish M,4,4,4,1,1,0
+237,Shirt - Beer & Crawfish L,4,4,4,1,1,0
+240,Shirt - BBB Crawfish XXL,4,4,4,1,1,0
+243,Shirt - BBB Crawfish XL,4,4,4,1,1,0
+246,Shirt - BBB Crawfish S,4,4,4,1,1,0
+249,Shirt - BBB Crawfish M,4,4,4,1,1,0
+252,Shirt - BBB Crawfish L,4,4,4,1,1,0
+253,Shiner Wicked Ram IPA Bottle,4,4,1,1,0,1
+254,Shiner Whitewing Bottle,4,4,1,1,0,1
+255,Shiner Whitehare Bottle,4,4,1,1,1,1
+256,Shiner Octoberfest KEG,7,4,1,1,1,1
+257,Shiner Octoberfest Bottle,4,4,1,1,1,1
+258,Shiner Ruby Redbird Bottle,4,4,1,1,1,1
+259,Shiner Hefeweizen Bottle,4,4,1,1,1,1
+260,Shiner Cheer Bottle,4,4,1,1,1,1
+261,Shiner Bock KEG,7,4,1,1,1,1
+262,Shiner Bock Bottle,4,4,1,1,1,1
+263,Shiner Light Blonde Bottle,4,4,1,1,1,-1
+264,Shiner Black Bottle,4,4,1,1,0,1
+265,Shake Mix,7,14,2,1,1,-1
+266,Seagrams 7,7,14,1,1,1,1
+267,"Sausage, Links",8,1,2,1,1,1
+268,St. Arnold Santo Bottle,4,4,1,1,1,-1
+269,Samuel Adams Winter Ale Bottle,4,4,1,1,0,1
+270,Samuel Adams Lager KEG,7,4,1,1,0,1
+271,Samuel Adams Lager Bottle,4,4,1,1,1,1
+272,"Salt, Bulk",7,2,2,1,1,1
+273,Rose's Lime Juice,7,14,3,1,1,1
+274,Rolling Rock Bottle,4,4,1,1,0,1
+275,"Rice, White",8,2,2,1,1,1
+276,"Relish, Sweet",7,16,2,1,1,1
+277,"Relish, Dill",7,16,2,1,1,1
+278,Redds Apple Ale Bottle,4,4,1,1,0,1
+279,Red Stripe Bottle,4,4,1,1,0,1
+280,Red Bull,4,4,1,1,1,1
+281,"Potato, Red Small",4,2,2,1,1,1
+282,"Potato, 70CT",4,2,2,1,1,1
+283,"Potato, 40CT",4,2,2,1,1,1
+284,Don't Use,9,13,2,1,0,0
+285,Potato Pearl Instant,8,5,2,1,1,1
+286,"Pork, Ribs",8,2,2,1,1,1
+287,"Pork, Butt",8,2,2,1,1,1
+288,"Pork, Bacon Bit",8,2,2,1,1,1
+289,"Pork, Bacon",8,2,2,1,1,1
+290,Pineapple Juice,7,3,2,1,1,1
+291,"Pie, Apple",4,4,2,1,1,1
+292,"Pickles, Dill Slices",4,3,2,1,1,1
+293,"Pepper, Chipotle Adobo",8,16,2,1,1,1
+294,"Pepper, Red Bell",8,2,2,1,1,1
+295,"Pepper, Jalapenos Pickled",8,16,2,1,1,1
+296,"Pepper, Green Bell",8,2,2,1,1,1
+297,Pecan Pieces,8,2,2,1,1,-1
+298,"Pear, Asian",8,2,2,1,1,-1
+299,"Peaches, Canned",8,16,2,1,1,1
+300,PBR Bottle,4,4,1,1,0,1
+301,Patron Tequila,7,14,1,1,1,1
+302,Patron Citronge,7,14,1,1,1,1
+303,"Pasta, Macaroni",8,2,2,1,1,1
+304,"Parsley, Fresh",8,15,2,1,1,-1
+305,Pam Pan Coating ARSL,4,4,2,1,1,1
+306,Pacifico Bottle,4,4,1,1,0,1
+307,Oreo Crumbs,8,2,2,1,1,1
+308,"Oranges, Mandarin",8,16,2,1,1,1
+309,Oranges,4,2,2,1,1,1
+310,"Onion, Yellow Colossal",8,2,2,1,1,1
+311,"Onion, Red",8,2,2,1,1,1
+312,"Onion, Green",8,15,2,1,1,1
+313,"Okra, Frozen",8,5,2,1,1,1
+314,"Oil, Vegetable",7,24,2,1,1,1
+315,"Oil, Olive 75/25",7,3,2,1,1,-1
+316,"Oil, Fry Shortening",8,24,2,1,0,1
+317,"Oil, Canola 90/10",7,3,2,1,1,-1
+318,O'Douls NA Bottle,4,4,1,1,1,1
+319,NYF Root Beer Bottle,4,4,1,1,1,1
+320,NYF Ginger Ale Bottle,4,4,1,1,0,1
+321,No Label Gillys Bottle,4,4,1,1,0,1
+322,New Castle Bottle,4,4,1,1,0,1
+323,Negro Modelo Bottle,4,4,1,1,0,1
+324,"Mustard, Dijon",7,14,2,1,1,1
+325,"Mushroom, Foodservice",8,2,2,1,1,1
+326,"Mushroom, Button",8,2,2,1,1,1
+327,Monin Mojito Mix,7,14,1,1,1,1
+328,Modelo Especial Bottle,4,4,1,1,1,1
+329,Miller Lite KEG,7,4,1,1,1,1
+330,Miller Lite Bottle,4,4,1,1,1,1
+331,Milk,7,3,2,1,1,1
+332,Midori,7,14,1,1,1,1
+333,Michelob Ultra KEG,7,4,1,1,1,1
+334,Michelob Ultra Bottle,4,4,1,1,1,1
+335,Michelob Bottle,4,4,1,1,0,1
+336,MGD Bottle,4,4,1,1,0,1
+337,MGD 64 Bottle,4,4,1,1,0,1
+338,Menage A Trois Red Blend,7,14,1,1,1,1
+339,Mayonnaise,7,3,2,1,0,1
+340,Marinara Sauce,7,16,2,1,1,1
+341,Donotuse12,25,13,2,1,1,-1
+342,Margarine,8,2,2,1,1,1
+343,Macallan Scotch,7,14,1,1,1,1
+344,Lone Star Light Bottle,4,4,1,1,1,1
+345,Lone Star Bottle,4,4,1,1,1,1
+346,Lobster Base,8,24,2,1,1,1
+347,Lobo Bottle,4,4,1,1,0,1
+348,Liquid Smoke,7,3,2,1,1,1
+349,Limes,4,2,2,1,0,1
+350,"Bar Mix, Lime Powder",8,9,3,1,1,-1
+351,Liberty School Cabernet Sauvignon,7,14,1,1,1,1
+352,"Lettuce, Spring Mix",8,2,2,1,1,1
+353,"Lettuce, Romaine",8,2,2,1,1,1
+354,"Lettuce, Iceberg",8,2,2,1,1,1
+355,Lemons,4,2,2,1,0,1
+356,"Bar Mix, Lemon Powder",8,9,3,1,1,-1
+357,Lemon Juice,7,3,2,1,1,-1
+358,Leinenkugel Cranberry Ginger Bottle,4,4,1,1,0,1
+359,Leinenkugel Bottle,4,4,1,1,0,1
+360,Landshark KEG,7,4,1,1,0,1
+361,Landshark Bottle,4,4,1,1,1,1
+362,"Ketchup, Packets",4,13,2,1,0,1
+363,"Ketchup, Bottle",7,14,2,1,0,1
+364,Kendall Jackson Chardonnay,7,14,1,1,1,1
+365,Karbach Hopadillo IPA KEG,7,4,1,1,0,1
+366,Karbach Hopadillo IPA Can,4,4,1,1,1,1
+367,Jagermeister,7,14,1,1,1,1
+368,Jack Daniels Bourbon 1.75L,7,32,1,1,1,-1
+369,Imperial Bottle,4,4,1,1,0,1
+370,"Ice Cream, Vanilla",7,3,2,1,1,0
+371,"Tequila, House",7,32,1,1,1,-1
+372,Hot Dogs 8/1,4,2,2,1,1,0
+373,Hot Cocoa Mix,4,4,2,1,1,0
+374,Horseradish,7,3,2,1,1,0
+375,Honey,7,2,2,1,1,0
+376,Heinz Steak Sauce,7,4,2,1,0,1
+377,Heineken Light Bottle,4,4,1,1,0,0
+378,Heineken Bottle,4,4,1,1,1,0
+379,Haywire Bottle,4,4,1,1,0,0
+382,Hat - Trucker,4,4,4,1,1,0
+385,Hat - Camo,4,4,4,1,1,0
+386,Half & Half,7,29,2,1,1,0
+387,Guiness Bottle,4,4,1,1,0,0
+388,Grolsch Bottle,4,4,1,1,0,0
+389,Grey Goose,7,14,1,1,1,1
+390,"Green Beans, Fresh",8,2,2,1,1,-1
+391,Gravy Mix Brown,4,4,2,1,1,1
+392,Grapefruit Juice,7,3,2,1,1,1
+393,Grand Marnier,7,14,1,1,1,1
+394,Goose Island IPA Bottle,4,4,1,1,1,1
+395,George Killian Bottle,4,4,1,1,0,1
+396,"Garlic, Whole Peeled",8,2,2,1,1,-1
+397,Fruit Cups,4,4,2,1,1,1
+398,"Fries, Sweet Potato",8,1,2,1,1,1
+399,"Fries, 5/16"" Russet",8,1,2,1,1,1
+400,Fosters Can,4,4,1,1,0,1
+401,Fosters Bottle,4,4,1,1,0,1
+402,"Flour, All Purpose",7,2,2,1,1,1
+403,"Fish, Tilapia Filet",8,2,2,1,1,1
+404,"Fish, Salmon Filet",8,2,2,1,1,1
+405,"Fish, Pollack Filet",8,2,2,1,1,1
+406,"Fish, Catfish 9/11",8,1,2,1,1,1
+407,"Fish, Catfish 3/5",8,1,2,1,1,1
+408,Fireball,7,14,1,1,1,1
+409,New Belgium Fat Tire KEG,7,3,1,1,0,1
+410,Dontuse10,4,4,1,1,1,-1
+411,Estancia Pinot Grigio,7,14,1,1,1,1
+412,Egg Roll Skins,4,9,2,1,1,1
+413,Deep Eddy Sweet Tea Vodka,7,14,1,1,1,1
+414,Easy Egg,7,4,2,1,1,1
+415,"Dressing, Thousand Island",7,3,2,1,1,1
+416,"Dressing, Ranch Mix",9,9,2,1,1,1
+417,"Dressing, Italian Mix",9,9,2,1,1,1
+418,"Dressing, Fat Free Ranch",7,3,2,1,1,1
+419,"Dressing, Fat Free Italian",7,3,2,1,1,1
+420,"Dressing, Asian Ginger",7,3,2,1,1,-1
+421,Dos XX Light KEG,7,4,1,1,1,1
+422,Dos XX Light Bottle,4,4,1,1,1,1
+423,DoNotUse6,4,4,1,1,1,-1
+424,Dont use,4,4,1,1,0,0
+425,Dos XX Dark Bottle,4,4,1,1,0,1
+426,Dos XX Light 7oz Bottle,4,4,1,1,1,-1
+427,Dasani Bottle,4,4,2,1,1,-1
+428,Cuervo 1800,7,14,1,1,1,1
+429,Cucumbers,8,2,2,1,1,1
+430,Crown Royal,7,14,1,1,1,1
+431,Croutons,8,9,2,1,1,1
+432,Creamers,4,13,2,1,1,-1
+433,"Crawfish, Tails",8,2,2,1,1,1
+434,"Crawfish, Live",8,2,2,1,1,-1
+435,"Cranberries, Dried",8,2,2,1,1,-1
+436,"Crackers, Saltine",4,13,2,1,1,1
+437,"Crackers, Club",4,13,2,1,1,1
+438,Crab Base,8,14,2,1,1,1
+439,Coronita Bottle,4,4,1,1,1,1
+440,Corona Light Bottle,4,4,1,1,1,1
+441,Corona Bottle,4,4,1,1,1,1
+442,Corn Meal,8,2,2,1,1,1
+443,Corn Dog,4,1,2,1,1,-1
+444,Corn Cob,4,1,2,1,1,-1
+445,Coors Light Bottle,4,4,1,1,1,1
+446,Coors Bottle,4,4,1,1,1,1
+447,"Coffee, Regular",9,9,3,1,1,1
+448,"Coffee, Decaf",9,9,3,1,1,1
+449,Cilantro,8,15,2,1,1,1
+450,Cholula Hot Sauce,7,14,2,1,0,1
+451,Chocolate Syrup,7,16,2,1,1,-1
+452,Chivas Regal,7,14,1,1,1,1
+453,"Chips, Fritos",9,9,2,1,1,1
+454,Chili Sauce,7,16,2,1,1,1
+455,Chili,8,24,2,1,1,1
+456,"Chicken, Wings",4,2,2,1,1,1
+457,"Chicken, Thigh",8,2,2,1,1,1
+458,"Chicken, Tenderloins",8,2,2,1,1,1
+459,"Chicken, Breasts",8,2,2,1,1,1
+460,Chicken Base,8,24,2,1,1,1
+461,"Cheese, Swiss Slice",10,9,2,1,1,1
+462,"Cheese, Parmesan Shredded",8,2,2,1,1,1
+463,"Cheese, Mozzarella Sticks",4,2,2,1,1,-1
+464,"Cheese, Monterey Jack Slice",10,9,2,1,1,1
+465,"Cheese, Monterey Jack Block",8,2,2,1,1,1
+466,"Cheese, Gorgonzola",8,2,2,1,1,1
+467,"Cheese, Golden Velvet Block",8,2,2,1,1,1
+468,"Cheese, Feta Crumble",8,2,2,1,1,1
+469,"Cheese, Cheddar Slice",10,9,2,1,1,1
+470,"Cheese, Cheddar Block",8,2,2,1,1,1
+471,"Cheese, Blue Crumble",8,5,2,1,1,1
+472,"Cheese, American Slice",10,9,2,1,1,1
+473,Chambord,7,14,1,1,1,1
+474,Centenario Tequila,7,14,1,1,1,1
+475,Celery,8,2,2,1,1,1
+476,Cashew Nuts,8,2,2,1,1,-1
+477,Carrots,8,2,2,1,1,1
+478,"Cap, Cook (Black Mesh Back)",4,4,3,1,1,1
+479,"Cabbage, Red",8,2,2,1,1,1
+480,"Cabbage, Green",8,2,2,1,1,1
+481,Buttermilk,7,4,2,1,1,1
+482,Butterfinger Topping,8,2,2,1,1,1
+483,"Butter, Unsalted",8,2,2,1,1,1
+484,"Bun, White",4,9,2,1,1,1
+485,"Bun, Wheat",4,9,2,1,1,1
+486,"Bun, Texas Toast",10,31,2,1,1,1
+487,"Bun, Kid",4,18,2,1,1,1
+488,"Bun, Hot Dog",4,18,2,1,1,1
+489,Budweiser KEG,7,4,1,1,1,1
+490,Budweiser Bottle,4,4,1,1,1,1
+491,Bud Select 55 Bottle,4,4,1,1,0,1
+492,Bud Light Wheat Bottle,4,4,1,1,0,1
+493,Bud Light Platinum Bottle,4,4,1,1,0,1
+494,Bud Light Lime Bottle,4,4,1,1,1,1
+495,Bud Light KEG,7,4,1,1,1,1
+496,Bud Light Bottle,4,4,1,1,1,1
+497,Brownie Mix,5,13,2,1,1,-1
+498,Broccoli Crowns,8,1,2,1,1,1
+499,Bridgeport Bottle,4,4,1,1,0,1
+500,"Bread Crumbs, Plain",8,9,2,1,1,1
+501,"Bread Crumbs, Japanese",8,2,2,1,1,1
+502,Brandy,7,14,1,1,1,1
+503,Boulevard Wheat Bottle,4,4,1,1,0,1
+504,Blue Moon KEG,7,4,1,1,1,1
+505,Blue Moon Bottle,4,4,1,1,1,1
+506,Blue Moon 7oz Bottle,4,4,1,1,0,1
+507,"Bar Mix, Bloody Mary",7,14,3,1,1,-1
+508,Do Not Use 2,7,14,1,1,0,0
+509,Blackstone Merlot,7,14,1,1,1,1
+510,"BIB, Sprite",7,4,3,1,0,0
+511,"BIB, Root Beer",7,4,3,1,0,0
+512,"BIB, Poweraid Mountain Blast",7,4,3,1,0,0
+513,"BIB, Lemon Aid",7,4,3,1,0,0
+514,"BIB, Fuze Raspberry Iced Tea",7,4,3,1,0,0
+515,"BIB, Dr. Pepper",7,4,3,1,0,0
+516,"BIB, Diet Dr. Pepper",7,4,3,1,0,0
+517,"BIB, Diet Coke",7,4,3,1,0,0
+518,"BIB, Coke Zero",7,4,3,1,0,0
+519,"BIB, Coke",7,4,3,1,0,0
+520,"Beef, Top Sirloin Steak 8oz",4,2,2,1,1,-1
+521,"Beef, Ribeye Steak",8,2,2,1,1,1
+522,"Beef, Philly Steak",8,2,2,1,1,-1
+523,"Beef, Ground",8,2,2,1,1,1
+524,"Beef, Cube Steak",4,2,2,1,1,1
+525,"Beef, Burger Patty 5/1",4,1,2,1,1,1
+526,"Beef, Burger Patty 2/1",4,1,2,1,1,1
+527,Beef Base,8,2,2,1,1,1
+528,BBQ Sauce,7,3,2,1,1,1
+529,Bandana,4,4,3,1,1,1
+530,Bailey's,7,14,1,1,1,1
+531,"Bun, Baguette Whole",4,4,2,1,1,1
+532,Bacardi Rum,7,14,1,1,1,1
+533,Avocado,4,4,2,1,1,1
+534,Asparagus,8,2,2,1,1,1
+535,"Arugula, Baby",8,2,2,1,1,1
+536,Artichoke Heart Quarters,8,16,2,1,1,1
+537,"Apron, Server",4,4,3,1,1,1
+538,Dontuse8,4,4,1,1,1,-1
+539,Angry Orchard Crisp Apple Ale Bottle,4,4,1,1,0,1
+540,Anchovy Paste,8,14,2,1,1,1
+541,Amaretto,7,14,1,1,1,1
+542,Abita Mardi Gras Bock Bottle,4,4,1,1,0,1
+543,A-1 Steak Sauce,7,14,2,1,1,1
+544,Roux Dark Prepared,8,2,2,3,0,0
+545,Country Gravy Prepared,7,3,2,3,0,0
+546,Brandy Butter Sauce Prepared,27,27,2,3,0,0
+547,Lemon Garlic Butter Prepared,7,3,2,3,0,0
+548,Brown Gravy Prepared,7,3,2,3,0,0
+549,Bulliard Cayenne Pepper Sauce,7,14,2,1,1,-1
+550,"Pork, Bacon Grease",8,2,2,1,1,1
+551,Hatch Green Chile Sauce Prepared,7,29,2,3,0,0
+552,Vanilla Extract,7,23,2,1,1,1
+553,Frank's Red Hot,7,3,2,1,1,1
+554,Catfish Breading Prepared,7,2,2,3,0,0
+555,Cucumbers Sliced,4,2,2,3,0,0
+556,Fish Taco Slaw Prepared,8,2,2,3,0,0
+557,Cilantro Rough Chopped,8,6,2,3,0,0
+558,Onions Red Cleaned,8,2,2,3,0,0
+559,Bun White Toasted,4,4,2,3,0,0
+560,Bun Wheat Toasted,4,4,2,3,0,0
+561,Lettuce Iceberg Shredded,8,2,2,3,0,0
+562,Turkey Burger Prepared,4,4,2,3,0,0
+563,Broccoli Florets Prepared,8,2,2,3,0,0
+564,"Zucchini, Fresh",8,2,2,1,1,-1
+565,Zucchini Half Moons,8,2,2,3,0,0
+566,Squash Yellow Half Moons,8,2,2,3,0,0
+567,Carrots Sliced Moons,8,2,2,3,0,0
+568,Vanilla Ice Cream Scooped,4,4,2,3,0,0
+569,"Cheese, Cheddar Shredded",8,2,2,3,0,0
+570,French Fries Cooked,8,6,2,3,0,0
+571,Egg Wash Prepared,7,3,2,3,0,0
+572,Onion Yellow Cleaned,8,2,2,3,0,0
+573,Crawfish Boil Prepared,7,7,2,3,0,0
+574,Honey Mustard Dressing Prepared,7,3,2,3,0,0
+575,Onion Yellow Chopped,8,2,2,3,0,0
+576,"Mustard, Yellow",7,14,2,1,1,1
+577,Tomatoes 4x5 DeStemmed,8,2,2,3,0,0
+578,Garlic Chopped,8,6,2,3,0,0
+579,Bleu Cheese Dressing Prepared,7,3,2,3,0,0
+580,"Spice, Nutmeg",7,14,2,1,1,1
+581,Pico de Gallo Prepared,8,2,2,3,0,0
+582,Spinach Salad Bags Prepared,27,27,2,3,0,0
+583,DoNotUse7,7,2,2,1,1,-1
+585,"Pepper, Jalapeno",8,2,2,1,1,1
+586,"Pepper, Serrano",8,2,2,1,1,-1
+587,Celery Trimmed,8,6,2,3,0,0
+588,Mixed Vegetables Prepared,27,27,2,3,0,0
+589,Caesar Dressing Prepared,7,3,2,3,0,0
+590,"Cheese, Parmesan Grated",8,14,2,1,1,1
+591,Parsley Chopped,8,6,2,3,0,0
+592,Onion Green Trimmed,8,6,2,3,0,0
+593,Lettuce Romaine Chopped,8,2,2,3,0,0
+594,Mediterranean Salad Bags Prepared,27,27,2,3,0,0
+595,Cabbage Green Shredded,8,2,2,3,0,0
+596,Cabbage Red Shredded,8,2,2,3,0,0
+597,Asian Pear Julienne,8,2,2,3,0,0
+598,Pepper Red Bell Julienne,8,2,2,3,0,0
+599,Pepper Green Bell Cleaned,8,2,2,3,0,0
+600,Mashed Potatoes Prepared,7,3,2,3,0,0
+601,Etouffee Base Prepared,7,3,2,3,0,0
+602,Marinade Prepared,7,3,2,3,0,0
+604,Campechana Sauce Prepared,7,3,2,3,0,0
+605,Cocktail Sauce Prepared,7,3,2,3,0,0
+606,"Ketchup, Bulk",7,9,2,1,0,1
+607,Roux Blonde Prepared,8,2,2,3,0,0
+608,Shrimp Kabob Prepared,4,4,2,3,0,0
+609,Wing Sauce Prepared,7,3,2,3,0,0
+610,Catfish 9/11 Marinated,4,2,2,3,0,0
+611,Dockside Dressing Prepared,7,3,2,3,0,0
+612,Ribeye Steaks Prepared,4,4,2,3,0,0
+613,Tortilla Soup Base Prepared,7,3,2,3,0,0
+614,"Sausage, Sliced & Portioned (6 oz)",8,27,2,3,0,0
+615,Gumbo Base Prepared,7,3,2,3,0,0
+616,Chicken Marinated,4,2,2,3,0,0
+617,Garlic Parmesan Prepared,8,2,2,3,0,0
+618,Shrimp Breading Prepared,8,2,2,3,0,0
+619,Chicken Tenderloins Trimmed,8,2,2,3,0,0
+620,Taco Salad Shells Prepared,4,4,2,3,0,0
+621,Hatch Green Chile - Mild,8,2,2,1,1,0
+622,Hatch Green Chile - Hot,8,2,2,1,1,0
+623,Rotel Tomato - Mild 1 can w/ juice,7,16,2,1,1,1
+624,Italian Dressing Prepared,7,3,2,3,0,0
+625,Chicken Tenders Prepared,4,2,2,3,0,0
+626,Chicken Bites Prepared (5OZ Port),27,27,2,3,0,0
+627,DoNotUse1,7,14,2,1,0,0
+628,Pulled Pork Portioned (7OZ Port),8,27,2,3,0,0
+629,Poppyseed Dressing Prepared,7,29,2,3,0,0
+630,Grill Sauce Prepared,7,29,2,3,0,0
+631,Taco Meat Prepared,8,2,2,3,0,0
+632,Sauteed Mushrooms Prepared,8,2,2,3,0,0
+633,"Wine, Cooking",7,14,1,1,1,1
+634,Carrots Shredded,8,2,2,3,0,0
+635,Ribs Prepared,4,4,2,3,0,0
+636,Tortilla Chips Prepared,8,2,2,3,0,0
+637,Seasoned Rice Prepared,8,2,2,3,0,0
+638,Pepper Green Bell Chopped 1x1,8,2,2,3,0,0
+639,Coleslaw Prepared,8,2,2,3,0,0
+640,Spiced Flour Prepared,8,2,2,3,0,0
+641,Coleslaw Dressing Prepared,7,3,2,3,0,0
+642,Boudin Balls,4,1,2,1,1,-1
+643,"Bar Mix, Banana",7,14,3,1,1,-1
+644,DoNotUse8,7,14,3,1,1,-1
+645,"Bar Mix, Raspberry Frz",7,14,3,1,1,-1
+646,"Bar Mix, Peach Pureee",7,14,3,1,1,-1
+647,"Bar Mix, Mango Puree",7,14,3,1,1,-1
+648,"Cheese, Pepper Jack Slice",10,9,2,1,1,1
+649,"Flour, Cake",7,2,2,1,1,1
+650,"Juice, Clamato",7,14,2,1,1,1
+651,"Margarine, Whipped",8,2,2,1,1,1
+652,"Juice, V8",7,14,2,1,1,1
+653,Mustard Packets,4,1,2,1,0,0
+654,"Salt, Kosher",7,13,2,1,1,1
+655,Equal Packets,4,1,2,1,0,1
+656,"Sugar, Powdered",7,5,2,1,0,1
+657,"BIB, Fruit Punch HI-C",7,4,2,1,0,0
+658,"BIB, Orange Crush",7,4,2,1,0,0
+659,"Vinegar, Balsamic",7,14,2,1,1,1
+660,"Wine, Sherry Cooking",7,3,2,1,1,1
+661,Queso Prepared,7,3,2,3,0,0
+662,Salsa Prepared,7,3,2,3,0,0
+663,Pepper Jalapeno Destemmed,8,2,2,3,0,0
+664,Pepper Serrano Destemmed,8,2,2,3,0,0
+665,Tomatoes Salsa Destemmed,8,2,2,3,0,0
+666,Onion Rings Prepared,8,2,2,3,0,0
+667,Balsamic Vinaigrette Prepared,27,27,2,3,0,0
+668,Garlic Chopped  Pureed,7,7,2,3,0,0
+669,Ranch Dressing Prepared,7,3,2,3,0,0
+670,Tartar Sauce Prepared,7,3,2,3,0,0
+672,Chipotle Mayo Prepared,7,29,2,3,0,0
+673,Lemon Juice Fresh Squeezed,7,7,2,3,0,0
+674,Mediterranean Dressing Prepared,27,27,2,3,0,0
+675,Bacon Slices Cooked,4,2,2,3,0,0
+676,Pasta Elbow Cooked,8,2,2,3,0,0
+677,Macaroni  Cheese Prepared,8,27,2,3,0,0
+678,Brownies Prepared,4,4,2,3,0,0
+679,Catfish 3/5 Prepared,4,2,2,3,0,0
+680,Chicken Wings Par-Cooked  (6EA Port),27,27,2,3,0,0
+681,Shrimp Breaded,4,4,2,3,0,0
+682,Tomatoes 4x5 Sliced,4,2,2,3,0,0
+683,Salad Mix Prepared,8,2,2,3,0,0
+684,Lettuce Iceberg Chopped,8,2,2,3,0,0
+685,"Spice, Rice Spice Pack",9,9,2,1,1,1
+686,Triple Sec,7,14,1,1,1,1
+687,Lime Juice,7,3,2,1,1,1
+688,Crispy Wonton Prepared,4,4,2,3,0,0
+689,Keg Deposit,4,4,1,1,0,1
+690,Cointreau,7,14,1,1,1,-1
+691,Smirnoff Ice,14,1,1,1,1,1
+692,Raspberry Liqueur,7,14,1,1,1,-1
+693,Captain Morgan Rum,7,14,1,1,0,-1
+694,Butterscotch Liqueur,7,14,1,1,0,-1
+695,Peach Schnapps,7,14,1,1,0,0
+696,Coors Lt Aluminum Bottle,4,4,1,1,1,1
+697,Miller Lite Aluminum Bottle,4,4,1,1,1,1
+698,Samuel Adams Rebel IPA Bottle,4,4,1,1,1,-1
+699,Shirt - Grill Daddy XS,4,4,3,1,1,0
+700,Shirt - Grill Daddy M,4,4,3,1,1,0
+701,Shirt - Grill Daddy L,4,4,3,1,1,0
+702,Shirt - Grill Daddy XL,4,4,3,1,1,0
+703,Shirt - Grill Daddy XXL,4,4,3,1,1,0
+704,z do not use,4,4,3,1,0,0
+705,Shirt - Swoosh XS,4,4,4,1,1,0
+706,Shirt - Bottle Cap XS,4,4,4,1,1,0
+707,Philly Cheesesteak Meat Portioned (8 oz),4,2,2,3,0,0
+708,Peach Cobbler Prepared,26,19,2,3,0,0
+709,"Spice, Baking Soda",7,13,2,1,1,1
+710,Apple Pie Baked,10,30,2,3,0,0
+711,Campechana Shrimp Prepared,27,27,2,3,0,0
+712,Crawfish Tails Portioned (4 oz),27,27,2,3,0,0
+713,Veggie Butter Prepared,8,2,2,3,0,0
+714,Quesadilla Cheese Mix Prepared,8,2,2,3,0,0
+715,Do not use 3,8,2,2,3,0,0
+716,Tortilla Soup Veggies Portioned (2.5 oz),27,27,2,3,0,0
+717,"Pepper, Yellow Bell",8,2,2,1,1,1
+718,Pepper Yellow Bell Julienne,8,2,2,3,0,0
+719,Potato Baked 40CT,4,4,2,3,0,0
+720,Potato Baked 70CT,4,4,2,3,0,0
+721,Carrot Sticks Prepared,4,2,2,3,0,0
+722,Celery Sticks Prepared,4,2,2,3,0,0
+723,Tomatoes Cherry Halves,4,2,2,3,0,0
+724,Corn Cobs Cooked,4,4,2,3,0,0
+725,Grilled Onions Prepared,8,2,2,3,0,0
+726,Onion Red Diced 1/4,8,2,2,3,0,0
+727,Onion Red Rings 1/8,4,2,2,3,0,0
+728,Potatoes Red Cooked,4,2,2,3,0,0
+729,Onions Green 1/4 Slice,8,2,2,3,0,0
+730,Spicy Coleslaw Prepared,8,2,2,3,0,0
+731,Tomatoes Diced 3/8,8,2,2,3,0,0
+732,Pollack Cooked,8,2,2,3,0,0
+733,Gumbo Seafood Portions (3.5 oz),27,27,2,3,0,0
+734,Shrimp Boiled  Peeled,4,2,2,3,0,0
+735,Bun Kid Toasted,4,4,2,3,0,0
+736,Bun Texas Toast Toasted Slice,4,4,2,3,0,0
+737,Bun Hot Dog Toasted,4,4,2,3,0,0
+738,Bun Baguette Toasted,4,4,2,3,0,0
+739,Asparagus Trimmed,8,2,2,3,0,0
+740,Salmon Filets Prepared,4,2,2,3,0,0
+741,Tilapia Filets Prepared,4,2,2,3,0,0
+742,Asian Salad Mix Prepared,8,2,2,3,0,0
+743,Lemon Wedges Prepared,4,2,2,3,0,0
+744,Margarita Frozen Prep,7,3,2,3,0,0
+745,Jack  Coke Frozen,7,3,2,3,0,0
+746,Lime Wedges Prepared,4,2,2,3,0,0
+747,Margarita Rocks Prep,7,3,2,3,0,0
+748,Margarita Frozen Strawberry Prep,7,3,2,3,0,0
+749,Pickles Dill Sliced by the OZ,8,6,2,3,0,0
+750,Lemon Wheels Prepared,4,4,2,3,0,0
+751,Tortilla Strips Prepared,8,2,2,3,0,0
+752,Shrimp 21/25 by the EA,4,2,2,3,0,0
+753,Henry's Hard Orange Bottle,4,4,1,1,1,0
+754,Donotuse11,4,4,1,1,1,-1
+755,Shiner Prickly Pear Bottle,4,4,1,1,0,1
+756,Tomato Basil Soup Prepared,7,29,2,3,0,0
+757,"Basil, Fresh",8,2,2,1,1,1
+758,Basil Julienned,11,7,2,3,0,0
+759,White Rice Prepared,8,2,2,3,0,0
+760,Guacamole Prepared,8,2,2,3,0,0
+761,Shock Top Summer Shandy KEG,7,4,1,1,0,1
+762,St. Arnold Summer Pils KEG,7,4,1,1,1,1
+763,Samuel Adams Cold Snap Bottle,4,4,1,1,0,1
+764,"Cheese, Monterey Jack Shredded",8,2,2,1,1,-1
+765,Mushrooms Portioned (6 oz),27,27,2,3,0,0
+766,Sweet Potato Fries Portioned (6 oz),27,27,2,3,0,0
+767,Boudin Balls Portioned (3 ea),27,27,2,3,0,0
+768,Bar Mix Sweet  Sour Prepared,7,3,3,3,0,0
+769,Cheese Gorgonzola Portions,27,27,2,3,0,0
+770,Cheese Golden Velvet Pound,8,2,2,3,0,0
+771,Corn Dogs by the Pound,4,2,2,3,0,0
+772,Leinenkugel Summer Shandy Bottle,4,4,1,1,0,1
+773,Bun Baguette Prepped 3/1,4,4,2,3,0,0
+774,"Tomato, Whole Peeled Canned",8,16,2,1,1,1
+775,Monin Habanero-Lime Syrup,7,14,2,1,1,1
+776,"Watermelon, Whole",4,4,2,1,1,1
+777,Bud Light Aluminum Bottle,4,4,1,1,1,1
+778,Deschutes Red Chair 4/6 LNNR,4,4,1,1,1,1
+779,New Belgium Citradelic IPA,4,4,1,1,1,1
+780,East Ciders Texas Honey Can,4,4,1,1,1,1
+781,St. Arnold Summer Pils Bottle,4,4,1,1,1,1
+782,Abita Strawberry Bottle,4,4,1,1,0,1
+783,Cheese American Slice Prepared,10,2,2,3,0,0
+784,Cheese Cheddar Slice Prepared,10,2,2,3,0,0
+785,Cheese Mont Jack Slice Prepared,10,2,2,3,0,0
+786,Cheese Pepper Jack Slice Prepared,10,2,2,3,0,0
+787,Cheese Swiss Slice Prepared,10,2,2,3,0,0
+788,Potato Whitener,8,5,2,1,0,0
+789,Cheese Monterey Jack Block Shredded,8,2,2,3,0,0
+790,Yellowbird Habanero,7,14,2,1,1,1
+791,Yellowbird Jalapeno,7,14,2,1,1,1
+792,Pickled Jalapenos Diced,8,2,2,3,0,0
+793,Jalapenos Fresh Sliced,4,4,2,3,0,0
+794,Watermelon Juice Prepared,7,29,2,3,0,0
+795,Coors Light KEG,7,4,1,1,1,-1
+796,Shock Top Keg,7,4,1,1,0,1
+797,Deep Ellum Easy IPA KEG,7,4,1,1,1,1
+798,Melon Liqueur,7,14,1,1,1,1
+799,St. Arnold Elissa IPA Bottle,4,4,1,1,1,1
+800,Shiner Ruby Redbird KEG,7,4,1,1,0,1
+801,Abita Seersucker Bottle,4,4,1,1,0,1
+802,Goose Island IPA KEG,7,4,1,1,0,1
+803,"Spice, Thyme Leaves",7,14,2,1,1,1
+804,Independence Bootlegger Brown Bottle,4,4,1,1,0,1
+805,No Label Forbidden Lavender,4,4,1,1,1,1
+806,Clown Shoes Mango Bottle,4,4,1,1,0,1
+807,Squatters Hop Rising IPA,4,4,1,1,1,1
+808,Karbach Sympathy Can,4,4,1,1,1,1
+809,Karbach Weiss Versa Can,4,4,1,1,1,1
+810,Corona KEG,7,4,1,1,0,1
+811,Goliad Redfish IPA Bottle,4,4,1,1,0,1
+812,Smith & Forge Cider Bottle,4,4,1,1,0,1
+813,Abita Purple Haze Bottle,4,4,1,1,0,1
+814,Shiner Premium Bottle,4,4,1,1,1,1
+815,Do Not Use4,4,4,1,1,0,0
+816,Henry's Hard Ginger Bottle,4,4,1,1,0,0
+817,Green Beans Blanched,8,2,2,3,0,0
+818,Green Beans Portioned,27,27,2,3,0,0
+819,Bud Black Crown Bottle,4,4,1,1,0,1
+820,Sutter Home Merlot,7,14,1,1,1,1
+821,Abita Big Easy Bottle,4,4,1,1,0,1
+822,East Ciders Pineapple Cider Can,4,4,1,1,1,1
+823,Tecate Bottle,4,4,1,1,0,1
+824,Pama Pomegranate,7,14,1,1,1,1
+825,Stump Town IPA Bottle,4,4,1,1,0,1
+826,Tecate Light Bottle,4,4,1,1,0,1
+827,"Juice, Capri Sun",4,4,2,1,1,1
+828,St. Arnold Fancy Lawnmower Bottle,4,4,1,1,1,1
+829,Shiner Wicked Ram KEG,7,4,1,1,0,1
+830,"BIB, Cherry Coke",7,4,2,1,0,0
+831,Shiner Prickly Pear KEG,7,4,1,1,0,1
+832,Stella Artois KEG,7,4,1,1,0,1
+833,St. Arnold Santo KEG,7,4,1,1,1,1
+834,Jack Daniels Bourbon 1L,7,34,1,1,1,-1
+835,Amstel Light Bottle,4,4,1,1,0,1
+836,Solid Rock Cream Ale Bottle,4,4,1,1,0,1
+837,Republic Reposado Tequila,7,14,1,1,1,1
+838,New Belgium Ranger IPA Bottle,4,4,1,1,0,1
+839,Leinenkugel Sunset Wheat Bottle,4,4,1,1,0,1
+840,Leinenkugel Snowdrift Bottle,4,4,1,1,0,1
+841,Strongbow Cherry Blossom Bottle,4,4,1,1,0,1
+842,Truly S&S Lime Bottle,4,4,1,1,0,1
+843,Stash IPA Bottle,4,4,1,1,0,1
+844,St. Arnold Weedwacker Bottle,4,4,1,1,1,1
+845,St. Arnold Art Car IPA KEG,7,4,1,1,1,1
+846,Karbach Staycation KEG,7,4,1,1,0,1
+847,Ranger Creek Red Headed Stranger Bottle,4,4,1,1,0,1
+848,Curious Traveler Grapefruit Shandy Bottle,4,4,1,1,0,1
+849,Curious Traveler Lemon Shandy Bottle,4,4,1,1,0,1
+850,St. Arnold Oktoberfest KEG,7,4,1,1,1,1
+851,Freetail Soul Doubt Keg,7,4,1,1,1,1
+852,DoNotUse5,8,2,2,1,1,-1
+853,Rotel Tomato Sauce,8,16,2,1,1,-1
+854,Samuel Adams Octoberfest Bottle,4,4,1,1,0,1
+855,St. Arnold Oktoberfest Bottle,4,4,1,1,1,-1
+856,Leinenkugel Grapefruit Shandy Bottle,4,4,1,1,0,1
+857,Shock Top Pretzel KEG,7,4,1,1,0,1
+858,Samuel Adams Summer Ale Bottle,4,4,1,1,0,1
+859,Shirt - Willie's VNeck SM,4,4,4,1,1,-1
+860,Shirt - Willie's VNeck M,4,4,4,1,1,-1
+861,Samuel Adams Octoberfest KEG,7,4,1,1,0,1
+862,Hops & Grain Zoe KEG,7,4,1,1,0,1
+863,Leinenkugel Oktoberfest KEG,7,4,1,1,0,1
+864,Republic Plata Tequila,7,14,1,1,1,-1
+865,Shiner Strawberry Blonde KEG,7,4,1,1,0,1
+866,Pulled Pork Prepared,8,2,2,3,0,0
+867,Asian Salad Bags Prepared,27,27,2,3,0,0
+868,Beef Burger 2/1 by the EACH,4,4,2,3,0,0
+869,Beef Burger 5/1 by the EACH,4,4,2,3,0,0
+870,Sales Tax,0,0,3,1,0,0
+871,Tabasco 1/2 GAL,7,35,2,1,1,-1
+872,Pinnacle Chocolate Vodka,7,14,1,1,1,-1
+873,St. Pauli Girl NA Beer Bottle,4,4,1,1,1,-1
+874,8th Wonder Dome Fauxm Bottle,4,4,1,1,1,-1
+875,Hershey's Milk Chocolate Bar,4,4,2,1,1,-1
+876,Pink Sprinkles,7,14,2,1,0,-1
+877,Samuel Adams Rebel Rouser Dbl IPA,4,4,1,1,1,-1
+878,Sierra Nevada Pale Ale Bottle,4,4,1,1,1,-1
+879,Oasis 137 Orange Force,4,14,3,1,0,-1
+880,Oasis 299 HD Bathroom Cleaner,4,14,3,1,0,-1
+881,Hi Perf Neutral Floor Cleaner,4,14,3,1,0,-1
+882,Wash N Walk BOH Floor Cleaner,14,14,3,1,0,-1
+883,EcoLab Fruit & Veg Treatment,14,14,3,1,0,-1
+884,Glass Cleaner,14,14,3,1,0,-1
+885,Keystone Greaselift,14,14,3,1,0,-1
+886,Apex Power Plus (White),4,4,3,1,0,-1
+887,Concentrated Liquid Dish Detergent,14,14,3,1,0,-1
+888,Scout Liquid Dish Detergent,4,4,3,1,0,-1
+889,Apex Presoak ,4,4,3,1,0,-1
+890,Apex Rinse Additive (Green),4,4,3,1,0,-1
+891,Concentrated Sanitizing Rinse,14,14,3,1,0,-1
+892,EcoTemp Ultra San 5Gal Sanitizer,4,12,3,1,0,-1
+893,Oasis146 Multi-Quat Sanitizer,14,14,3,1,0,-1
+894,Foam Hand Sanitizer Pouch,4,22,3,1,0,-1
+895,Foam Hand Soap Pouch,4,22,3,1,0,-1
+896,SOS Steel Wool Pad,4,9,3,1,0,-1
+897,SS Polish Aerosol Cans,4,16,3,1,0,-1
+898,New Belgium Fat Tire Bottle,4,4,1,1,1,-1
+899,Pedernales REK Honey Pils Can,4,4,1,1,1,-1
+900,Shiner Homespun Cream Ale KEG,7,4,1,1,1,-1
+901,Canada Dry Club Soda,7,16,2,1,1,-1
+902,"Mint, Fresh",8,2,2,1,1,-1
+903,Chocolate Chopped,27,27,2,3,0,0
+904,St. Arnold Weedwacker KEG,7,4,1,1,1,-1
+905,Alamo Golden Ale KEG,7,4,1,1,1,-1
+906,Alamo Amber Lager Bottle,4,4,1,1,1,-1
+907,Lagunitas IPA Bottle,4,4,1,1,1,-1
+908,Real Ale Fireman's #4 Bottle,4,4,1,1,1,-1
+909,Alamo Golden Ale Bottle,4,4,1,1,1,-1
+910,Shiner Cheer KEG,7,4,1,1,1,-1
+911,Peel  Eat Shrimp (6 per Portion),4,27,2,3,0,0
+912,Ecco Domani Pinot Grigio,7,33,1,1,1,-1
+913,Beringer White Zinfandel,7,33,1,1,1,-1
+914,Mark West Pinot Noir,7,33,1,1,1,-1
+915,Carnivor Cabernet,7,33,1,1,1,-1
+916,Catering Misc - Meat,0,0,2,1,0,-1
+917,Catering Misc - Bread,0,0,2,1,0,-1
+918,Catering Misc - Dairy,0,0,2,1,0,0
+919,Catering Misc - NA Beverage,0,0,2,1,0,-1
+920,Catering Misc - Other Food,0,0,2,1,0,-1
+921,Catering Misc - Paper,0,0,3,1,0,-1
+922,Catering Misc - Poultry,0,0,2,1,0,-1
+923,Catering Misc - Produce,0,0,2,1,0,-1
+924,Catering Misc - Seafood,0,0,2,1,0,-1
+925,Grease Express Fryer Cleaner,9,9,3,1,0,-1
+926,Peroxide Multi-Surface Cleaner,14,14,3,1,0,-1
+927,Greasecutter Plus,14,14,3,1,0,-1
+928,St. Arnold Christmas Ale Bottle,4,4,1,1,1,-1
+929,Alamo Belgian White Ale KEG,7,4,1,1,1,-1
+930,Alamo Doublebock KEG,7,4,1,1,1,-1
+931,Alamo Holiday IPA KEG,7,4,1,1,1,-1
+932,Alamo Summer Ale KEG,7,4,1,1,1,-1
+933,Alamo Maibock KEG,7,4,1,1,1,-1
+934,St. Arnold Christmas Ale KEG,7,4,1,1,1,-1
+935,Shirt - Willie's Long Sleeve S,4,4,4,1,1,0
+936,Shirt - Willie's Long Sleeve M,4,4,4,1,1,0
+937,Shirt - Willie's Long Sleeve L,4,4,4,1,1,0
+938,Shirt - Willie's Long Sleeve XL,4,4,4,1,1,0
+939,Shirt - Willie's Long Sleeve XXL,4,4,4,1,1,0
+940,Willie's Sweatshirt M,4,4,4,1,1,0
+941,Willie's Sweatshirt L,4,4,4,1,1,0
+942,Willie's Sweatshirt XL,4,4,4,1,1,0
+943,Willie's Sweatshirt XXL,4,4,4,1,1,0
+944,Willie's Sweatshirt S,4,4,4,1,1,0
+945,Alamo Pilsner KEG,7,4,1,1,1,-1
+946,"Bar Mix, Lemonade Mix",8,9,2,1,1,-1
+947,Frozen Lemonade Mix,3,3,1,3,0,0
+948,"White Rice, Prepared",8,8,2,3,0,0
+949,"Etouffee Shrimp, Portioned",27,27,2,3,0,0
+950,Crawfish Tails Portioned Etouffee (5 oz),27,27,2,3,0,0
+951,"Broccoli Florets, Portioned",27,27,2,3,0,0
+952,Shiner Coffee Ale KEG,7,4,1,1,1,-1
+953,St. Arnold White Noise KEG,7,4,1,1,1,-1
+954,St. Arnold White Noise Bottle,4,4,1,1,1,-1
+955,Alamo Munich Dark Lager KEG,7,4,1,1,1,-1
+956,Shiner Coffee Ale Bottle,4,4,1,1,1,-1
+957,Onion Red Minced,7,7,2,3,0,0
+958,Deep Eddy Peach Vodka,7,34,1,1,1,-1
+959,Deep Eddy Grapefruit Vodka,7,34,1,1,1,-1
+960,Shirt - Baseball M,4,4,4,1,1,-1
+961,Shirt - Baseball L,4,4,4,1,1,-1
+962,Shirt - Baseball XL,4,4,4,1,1,-1
+963,Shirt - Baseball XXL,4,4,4,1,1,-1
+964,Shirt - Baseball XS,4,4,4,1,1,-1
+965,Iced Tea Unsweetened Batch 3GAL,3,3,2,3,0,0
+966,Iced Tea Sweetened Batch 3 GAL,3,3,2,3,0,0
+967,"Sirloin Cheesesteak Meat, Portioned (8 oz) SA Only",27,27,2,3,0,0
+968,St. Arnold Spring Bock Keg,7,4,1,1,1,-1
+969,St. Arnold Spring Bock Bottle,4,4,1,1,1,-1
+970,"Coke, Fountain",3,3,2,3,0,0
+971,IBC Root Beer Bottle,4,4,2,1,1,-1
+972,Mich Ultra Aluminum Bottle,4,4,1,1,1,-1
+973,Karbach Love Street KEG,7,4,1,1,1,-1
+974,Busted Sandal Finding Friday KEG,7,4,1,1,1,-1
+975,"Oysters, Fresh",4,2,2,1,1,-1
+976,"Rosemary, Fresh",8,15,2,1,1,-1
+977,J Roget Brut Champagne 187 ml,14,14,1,1,1,-1
+978,Sutter Home Cabernet Sauvigon 187ml,14,14,1,1,1,-1
+979,Sutter Home Chardonnay 187ml,14,14,1,1,1,-1
+980,Sutter Home Wite Zinfandel 187 ml,14,14,1,1,1,-1
+981,"Pepper, Poblano",8,2,2,1,1,-1
+982,"Tomatillo, Cleaned",8,2,1,1,1,-1
+983,"Tortilla Chips, Regular",8,2,2,1,1,-1
+984,"Tortilla, 6"" Special White",4,18,2,1,1,-1
+985,"Tortilla, 6"" Red Enchilada",4,18,2,1,1,-1
+986,"Tortilla, 9"" Flauta White",4,18,2,1,1,-1
+987,"Tortilla, 6"" Flour Mantecada",4,18,2,1,1,-1
+988,"Tortilla, 9"" Yellow Corn Flour Flauta",4,18,2,1,1,-1
+989,"Tortilla, 6"" Whole Wheat",4,18,2,1,1,-1
+990,"Beef, Skirts",8,2,2,1,1,-1
+991,"Beef, Cheek Meat",8,2,2,1,1,-1
+992,"Pinto Beans, Dried",8,2,2,1,1,-1
+993,Chicken Broth,7,4,2,1,1,-1
+994,"Creamers, Hazelnut",4,13,2,1,1,-1
+995,"Creamers, French Vanilla",4,13,2,1,1,-1
+996,"Cheese, Cotija",8,2,2,1,1,-1
+997,Eggs,4,18,2,1,1,-1
+998,Biscuit Dough,4,13,2,1,1,-1
+999,"Jelly, Grape",4,13,2,1,1,-1
+1000,"Jam, Strawberry",4,13,2,1,1,-1
+1001,Tortilla Flour Mix 2#,5,5,2,1,1,-1
+1002,Pancake Mix,8,13,2,1,1,-1
+1003,Breakfast Potatos,8,5,2,1,1,-1
+1004,"Syrup, Maple",8,3,2,1,1,-1
+1005,Shortening,8,24,2,1,1,-1
+1006,"Sausage, Chorizo",8,2,2,1,1,-1
+1007,"Dressing, Bleu Cheese",7,3,2,1,1,-1
+1008,Bohemia Bottle,4,4,1,1,1,-1
+1009,Alamo Fiestaval KEG,7,4,1,1,1,-1
