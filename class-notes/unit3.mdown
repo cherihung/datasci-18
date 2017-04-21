@@ -57,3 +57,11 @@ regularization adds accuracy, won't lose any columns in your dataset. it's a lay
 ## LDA
 
 Unsupervised learning algorithm for text.
+
+#L15 - 04-20-2017
+
+## Time series
+
+- Trend (significant and stable increase or decrease) and/or seasonality (regular repeated pattern)
+- seasonality measures cycle. if something's normal vs abnormal
+- Use *moving average* to refine noise out of data to a clearer picture of overall trend
