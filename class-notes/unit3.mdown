@@ -65,3 +65,31 @@ Unsupervised learning algorithm for text.
 - Trend (significant and stable increase or decrease) and/or seasonality (regular repeated pattern)
 - seasonality measures cycle. if something's normal vs abnormal
 - Use *moving average* to refine noise out of data to a clearer picture of overall trend
+
+#L16 - missed
+
+#L17 - 04-27-2017
+## Databases
+http://sqlitebrowser.org/
+
+## Big Data
+### NoSQL databases
+- suitable for high velocity (changing fast), high variety data, changing schema, sparse data (lots of null values)
+- fast storage, slower retrieval than traditional relational/sql databases
+- store data as nested dictionary instead of column table structure in relation structure. similar to how python dictionary works.
+
+### Graph Networks
+- nodes and edges to represent relationships
+- 3 connections = 3 degrees
+- kind of like NoSQL in that each node can have a dictionary with data
+- Strong time-based usage and analysis purpose e.g. outbreak pattern, cascading failure
+
+- _networkx_ pandas library for graphing network. Some info: density = 1 means every node has a connection, closer to 0 means no connection
+
+## slide 21 exercise
+1. denormalized. a table for "leagues" with league name and league id. team table contains league id to match.
+
+## slide 67 exercise
+types of database to use with:
+yelp comments, IMDB, tracking stars - SQL,
+Google maps, tracking visitors, - NoSQL
