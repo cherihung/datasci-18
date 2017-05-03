@@ -93,3 +93,16 @@ http://sqlitebrowser.org/
 types of database to use with:
 yelp comments, IMDB, tracking stars - SQL,
 Google maps, tracking visitors, - NoSQL
+
+#L18 - 05-02-2017
+### Pickle!! to save your model and vectorizer
+- use pickle to save any python object or code
+- can be saved to any file extension, not necessarily .pickle
+
+### python pipeline
+- spotify Luigi and airBnB airFlow
+
+### exercise - arrival!
+
+- Acquire data: talk to alien, acquire as many writing samples as possible
+- Analysis: raw data => determine most common segments, clustering => train the data by verifying with aliens => build a language dictionary library like NLP to eventually parse what the aliens are talking about, decision tree
