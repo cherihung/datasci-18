@@ -1,0 +1,98 @@
+/** select a specific date range of inventories **/
+SELECT [InventoryID]
+      ,[StoreID]
+      ,[Date]
+      ,[UserID]
+      ,[TimeStamp]
+      ,[UserIDLastUpdated]
+      ,[TimeStampLastUpdated]
+      ,[FinishedFlag]
+  FROM [Dev_Hung_WIH].[dbo].[tb_InventoryDates]
+  WHERE Date BETWEEN '2016-12-01' AND '2017-02-28'
+
+/** select corresponding Product variance data based on above date range **/
+SELECT [InventoryID]
+      ,[ProductID]
+      ,[BeginQty]
+      ,[RecQty]
+      ,[EndQty]
+      ,[ActualQty]
+      ,[IdealQty]
+      ,[VarianceQty]
+      ,[PricePerQty]
+      ,[RecMeasureID]
+  FROM [Dev_Hung_WIH].[dbo].[tb_IdealVActualC]
+  WHERE InventoryID BETWEEN 388 AND 950
+
+/** select orders within the above date range **/
+SELECT [StoreID]
+      ,[OrderNumber]
+      ,[DCID]TOP
+      ,[OrderType]
+      ,[Invoice]
+      ,[PostDate]
+      ,[PostTime]
+      ,[SentDateTime]
+      ,[DateReceived]
+      ,[TimeReceived]
+      ,[DeliveryDate]
+   FROM [Dev_Hung_WIH].[dbo].[tb_OrderNumbers]
+  WHERE PostDate BETWEEN '2016-12-01' AND '2017-02-28'
+
+/** join orderNUmbers and orderReceived **/
+
+SELECT [Dev_Hung_WIH].[dbo].[tb_OrderNumbers].[OrderNumber], [Dev_Hung_WIH].[dbo].[tb_OrderNumbers].[Invoice], [Dev_Hung_WIH].[dbo].[tb_OrderNumbers].[PostDate], [Dev_Hung_WIH].[dbo].[tb_OrderNumbers].[OrderType],[Dev_Hung_WIH].[dbo].[tb_OrderReceived].[OrderNumber], [Dev_Hung_WIH].[dbo].[tb_OrderReceived].[ItemNumber], [Dev_Hung_WIH].[dbo].[tb_OrderReceived].[ProductID],[Dev_Hung_WIH].[dbo].[tb_OrderReceived].[Qty]
+  FROM [Dev_Hung_WIH].[dbo].[tb_OrderNumbers] INNER JOIN [Dev_Hung_WIH].[dbo].[tb_OrderReceived]
+  ON [Dev_Hung_WIH].[dbo].[tb_OrderNumbers].OrderNumber = [Dev_Hung_WIH].[dbo].[tb_OrderReceived].OrderNumber
+  WHERE [Dev_Hung_WIH].[dbo].[tb_OrderNumbers].PostDate BETWEEN '2016-12-01' AND '2017-02-28'
+
+
+
+Disregrad
+
+/** join two tables from in vw_OrderReceived that has ProductID matching tb_IdealVActualC but matching by InventoryId **/
+
+SELECT TOP 15000 [Dev_Hung_WIH].[dbo].[tb_IdealVActualC].*, [Dev_Hung_WIH].[dbo].[vw_OrderReceived].[ProductID], [Dev_Hung_WIH].[dbo].[vw_OrderReceived].[OrderNumber], [Dev_Hung_WIH].[dbo].[vw_OrderReceived].[ItemNumber]
+FROM [Dev_Hung_WIH].[dbo].[tb_IdealVActualC]
+INNER JOIN [Dev_Hung_WIH].[dbo].[vw_OrderReceived] ON [Dev_Hung_WIH].[dbo].[tb_IdealVActualC].ProductID = [Dev_Hung_WIH].[dbo].[vw_OrderReceived].ProductID
+AND [Dev_Hung_WIH].[dbo].[tb_IdealVActualC].InventoryID BETWEEN 388 AND 950
+
+
+
+SELECT [OrderNumber]
+      ,[Invoice]
+      ,[ItemNumber]
+      ,[DCItemNumber]
+      ,[ItemDescription]
+      ,[OrderedQty]
+      ,[ReceivedQty]
+  FROM [Dev_Hung_WIH].[dbo].[vw_OrderDetail]
+
+
+----
+Match by InventoryID and Product ID
+SELECT IVActualC.InventoryID, IVActualC.ProductID, InventoryDates.Date, Ingredients.ProductDescription, SUM(IVActualC.VarianceQty), IVActualC.BeginQty, IVActualC.EndQty, IVActualC.ActualQty, IVActualC.IdealQty, ItemCategories.CategoryID, Categories.Category, Ingredients.ProductType, InventoryDates.StoreID
+  FROM [InventoryDates]
+  INNER JOIN IVActualC ON [InventoryDates].InventoryId = IVactualC.InventoryID
+  INNER JOIN Ingredients ON Ingredients.ProductID = IVactualC.ProductID
+  JOIN ItemCategories ON ItemCategories.ProductID = IVActualC.ProductID
+  JOIN Categories ON Categories.CategoryID = ItemCategories.CategoryID
+  GROUP BY IVActualC.ProductID
+
+
+  SELECT IVActualC.ProductID, Ingredients.ProductDescription, IVActualC.VarianceQty, IVActualC.BeginQty, IVActualC.EndQty, IVActualC.ActualQty, IVActualC.IdealQty, ItemCategories.CategoryID, Categories.Category, Ingredients.ProductType
+    FROM [Ingredients]
+    JOIN IVActualC ON [Ingredients].ProductID = IVactualC.ProductID
+    JOIN ItemCategories ON ItemCategories.ProductID = Ingredients.ProductID
+    JOIN Categories ON Categories.CategoryID = ItemCategories.CategoryID
+    GROUP BY IVActualC.ProductID
+
+
+    SELECT COUNT(IVActualC.InventoryID), IVActualC.ProductID, InventoryDates.Date, Ingredients.ProductDescription, SUM(IVActualC.VarianceQty), IVActualC.BeginQty, IVActualC.EndQty, IVActualC.ActualQty, IVActualC.IdealQty, ItemCategories.CategoryID, Categories.Category, Ingredients.ProductType, InventoryDates.StoreID
+      FROM [InventoryDates]
+      INNER JOIN IVActualC ON [InventoryDates].InventoryId = IVActualC.InventoryID
+      INNER JOIN Ingredients ON Ingredients.ProductID = IVActualC.ProductID
+      JOIN ItemCategories ON ItemCategories.ProductID = IVActualC.ProductID
+      JOIN Categories ON Categories.CategoryID = ItemCategories.CategoryID
+      GROUP BY IVActualC.ProductID
+      /*WHERE InventoryDates.Date BETWEEN '12/01/2016 0:00' AND '2/28/2017 0:00'*/

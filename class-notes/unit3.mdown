@@ -66,7 +66,7 @@ Unsupervised learning algorithm for text.
 - seasonality measures cycle. if something's normal vs abnormal
 - Use *moving average* to refine noise out of data to a clearer picture of overall trend
 
-#L16 - missed
+#L16 - missed Time trends
 
 #L17 - 04-27-2017
 ## Databases
@@ -100,7 +100,7 @@ Google maps, tracking visitors, - NoSQL
 - can be saved to any file extension, not necessarily .pickle
 
 ### python pipeline
-- spotify Luigi and airBnB airFlow
+- Spotify Luigi and airBnB airFlow
 
 ### exercise - arrival!
 
