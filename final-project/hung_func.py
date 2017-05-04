@@ -17,7 +17,7 @@ def log_transform(df, cols):
 
 def get_linear_model_metrics(X, y, algo):
     pvals = feature_selection.f_regression(X, y)[1]
-    lm = algo.fit(X,y)
+    algo.fit(X,y)
     residuals = (y-algo.predict(X)).values
 
     # print the basic metrics
@@ -27,8 +27,8 @@ def get_linear_model_metrics(X, y, algo):
     print 'R-2:', algo.score(X,y)
 
     # print model fit metrics
-    mse = metrics.mean_squared_error(y, lm.predict(X))
-    rmse = sqrt(metrics.mean_squared_error(y, lm.predict(X)))
+    mse = metrics.mean_squared_error(y, algo.predict(X))
+    rmse = sqrt(metrics.mean_squared_error(y, algo.predict(X)))
     #rsq = metrics.r2_score(y, lm.predict(X))
     print 'MSE:', mse
     print 'RMSE:', rmse
